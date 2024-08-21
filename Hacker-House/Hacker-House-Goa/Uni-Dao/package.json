@@ -1,0 +1,53 @@
+{
+  "name": "uni-three",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@anon-aadhaar/react": "^2.4.0",
+    "@radix-ui/react-alert-dialog": "^1.1.1",
+    "@radix-ui/react-dropdown-menu": "^2.1.1",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-navigation-menu": "^1.2.0",
+    "@radix-ui/react-select": "^2.1.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@splinetool/react-spline": "^4.0.0",
+    "@splinetool/runtime": "^1.9.5",
+    "@tabler/icons-react": "^3.11.0",
+    "@tanstack/react-query": "^5.51.21",
+    "@thirdweb-dev/react": "^4.9.4",
+    "@thirdweb-dev/sdk": "^4.0.99",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "cobe": "^0.6.3",
+    "ethers": "^5.7.2",
+    "framer-motion": "^11.3.24",
+    "lucide-react": "^0.424.0",
+    "mini-svg-data-uri": "^1.4.4",
+    "next": "14.2.5",
+    "next-themes": "^0.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "recharts": "^2.12.7",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "thirdweb": "^5.44.0",
+    "wagmi": "^2.12.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
