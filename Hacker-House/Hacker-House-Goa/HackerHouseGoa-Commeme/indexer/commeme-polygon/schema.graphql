@@ -1,0 +1,39 @@
+type CommemeCreated @entity(immutable: true) {
+  id: Bytes!
+  commemeAddress: Bytes! # address
+  creator: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+type Commeme @entity {
+  id: ID!
+  commemeAddress: Bytes! # address
+  creator: Bytes! # address
+  isActive: Boolean!
+  timeToClose: BigInt!
+  threshold: BigInt!
+  totalSupply: BigInt!
+  name: String!
+  symbol: String!
+  tokenAddress: Bytes!
+  metadata: String!
+  poolAddress: String!
+  totalDonation: BigInt!
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}

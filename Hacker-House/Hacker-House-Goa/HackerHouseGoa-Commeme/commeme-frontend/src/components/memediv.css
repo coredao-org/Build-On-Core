@@ -1,0 +1,57 @@
+div.container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+}
+
+h4.meme-top-text,
+h4.meme-bottom-text {
+    padding: 0;
+    font-weight: 600;
+}
+
+div.meme-container {
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    max-height: 50vh;
+    max-width: 50vw;
+}
+
+form {
+    width: 50%;
+}
+
+div.color-picker {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+div.color-picker button.color {
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid #505050;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.button-container {
+    margin-top: -1em;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.button-container button {
+    width: 40%;
+}
