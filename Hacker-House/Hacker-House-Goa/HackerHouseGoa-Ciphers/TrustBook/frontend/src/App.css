@@ -1,0 +1,21 @@
+.test {
+  font-family: "FONTSPRING DEMO - Integral CF";
+}
+
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-60px);
+  }
+}
+
+.animated-element {
+  animation: upDown 2s ease-in-out infinite;
+}
+
+.font-2{
+  font-family: "FONTSPRING DEMO - Integral CF";
+
+}
