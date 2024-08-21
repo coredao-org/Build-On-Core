@@ -1,0 +1,56 @@
+specVersion: 1.0.0
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: CommemeFactory
+    network: matic
+    source:
+      address: "0x3c287EBA998789a4a8C88ec0b251bb08978bb980"
+      abi: CommemeFactory
+      startBlock: 60365212
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - CommemeCreated
+      abis:
+        - name: CommemeFactory
+          file: ./abis/CommemeFactory.json
+      eventHandlers:
+        - event: CommemeCreated(indexed address,indexed address)
+          handler: handleCommemeCreated
+      file: ./src/commeme-factory.ts
+templates:
+    - kind: ethereum/contract
+      name: Commeme
+      network: matic
+      source:
+          abi: Commeme
+      mapping:
+          kind: ethereum/events
+          apiVersion: 0.0.7
+          language: wasm/assemblyscript
+          entities:
+              - CommemeCreated
+              - PoolCreated
+              - TokenDeployed
+              - LiquidityAdded
+              - Donation
+          abis:
+              - name: Commeme
+                file: ./abis/Commeme.json
+          eventHandlers:
+              - event: CommemeCreated(indexed address,string,uint256,string,string,uint256)
+                handler: handleCommemeCreated
+              - event: PoolCreated(indexed address,address,address)
+                handler: handlePoolCreated
+              - event: TokenDeployed(indexed address,string,string,uint256)
+                handler: handleTokenDeployed
+              - event: Donation(bool,uint256,uint256,uint256,address,address)
+                handler: handleDonation
+              
+          file: ./src/commeme.ts
