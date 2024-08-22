@@ -135,4 +135,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-Special thanks to the CoreDAO community for their support and inspiration. and to our team mates [Kunal Dhongade](https://www.github.com/kunaldhongade) & [Asif Sayyad](https://www.github.com/asifsayyad25)
+Special thanks to the CoreDAO community for their support and inspiration. and to our team mates [Chintan Rabadiya](https://github.com/Chintan5942), [Kunal Dhongade](https://www.github.com/kunaldhongade) & [Asif Sayyad](https://www.github.com/asifsayyad25)
