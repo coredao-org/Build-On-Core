@@ -1,0 +1,203 @@
+{
+"skeleton": {
+	"hash": "WtcO22vumg1etXlK7lNHOI4uohk",
+	"spine": "3.8.99",
+	"x": -1.86,
+	"y": -200.33,
+	"width": 264,
+	"height": 400,
+	"images": "./images/",
+	"audio": "C:/Users/QianHu002/Desktop/动画/火线枪战躲猫猫/武器特效/cjj攻击/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "cjj_b1", "parent": "root", "x": 53.1, "y": 1.12 },
+	{ "name": "cjj_sx", "parent": "root", "length": 27.04, "x": 3.23, "y": 1.24 },
+	{ "name": "cjj_s", "parent": "root", "x": -0.29, "y": 3.29 },
+	{ "name": "cjj_x", "parent": "root", "x": -0.56, "y": -1.27 },
+	{ "name": "cjj_b4", "parent": "cjj_b1", "x": 174.35, "y": 5.93 },
+	{ "name": "cjj_b3", "parent": "cjj_b1", "x": 123.66, "y": 4.08 },
+	{ "name": "cjj_b5", "parent": "cjj_b1", "x": 55.95, "y": 4.45 },
+	{ "name": "cjj_b6", "parent": "cjj_b1", "x": 8.22, "y": -1.84 }
+],
+"slots": [
+	{ "name": "cjj_sx", "bone": "cjj_sx", "attachment": "cjj_sx" },
+	{ "name": "cjj_b4", "bone": "cjj_b4", "attachment": "cjj_b4" },
+	{ "name": "cjj_b4_1", "bone": "root" },
+	{ "name": "cjj_b3", "bone": "cjj_b3", "attachment": "cjj_b3" },
+	{ "name": "cjj_b3_1", "bone": "root" },
+	{ "name": "cjj_b2", "bone": "cjj_b5", "attachment": "cjj_b2" },
+	{ "name": "cjj_b2_1", "bone": "root" },
+	{ "name": "cjj_b1", "bone": "cjj_b6", "attachment": "cjj_b1" },
+	{ "name": "cjj_b1_1", "bone": "root" },
+	{ "name": "cjj_s", "bone": "cjj_s", "attachment": "cjj_s" },
+	{ "name": "cjj_x", "bone": "cjj_x", "attachment": "cjj_x" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"cjj_b1": {
+				"cjj_b1": { "x": 2.32, "y": -1.13, "width": 33, "height": 103 },
+				"cjj_b1_1": { "x": 2.32, "y": -1.13, "width": 33, "height": 103 }
+			},
+			"cjj_b2": {
+				"cjj_b2": { "x": 3.09, "y": -6.92, "width": 54, "height": 150 },
+				"cjj_b2_1": { "x": 3.09, "y": 1.08, "width": 54, "height": 150 }
+			},
+			"cjj_b3": {
+				"cjj_b3": { "x": -12.12, "y": -6.05, "width": 71, "height": 249 },
+				"cjj_b3_1": { "x": -13.12, "y": -4.05, "width": 71, "height": 249 }
+			},
+			"cjj_b4": {
+				"cjj_b4": { "x": -14.81, "y": -7.4, "width": 99, "height": 370 },
+				"cjj_b4_1": { "x": -16.81, "y": -7.4, "width": 99, "height": 370 }
+			},
+			"cjj_s": {
+				"cjj_s": { "x": 100.21, "y": 97.88, "width": 198, "height": 197 }
+			},
+			"cjj_sx": {
+				"cjj_sx": { "x": 110.41, "y": 0.42, "width": 231, "height": 387 }
+			},
+			"cjj_x": {
+				"cjj_x": { "x": 100.48, "y": -100.06, "width": 198, "height": 198 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"cjj_b1": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "cjj_b1_1" },
+					{ "time": 0.2, "name": "cjj_b1" }
+				]
+			},
+			"cjj_b2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "cjj_b2_1" },
+					{ "time": 0.3, "name": "cjj_b2" }
+				]
+			},
+			"cjj_b3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3, "name": "cjj_b3_1" },
+					{ "time": 0.4, "name": "cjj_b3" }
+				]
+			},
+			"cjj_b4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4, "name": "cjj_b4_1" },
+					{ "time": 0.5, "name": "cjj_b4" }
+				]
+			},
+			"cjj_s": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			},
+			"cjj_sx": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "color": "ffffff00" }
+				]
+			},
+			"cjj_x": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"cjj_b1": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 19.69 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 1.446, "y": 1.446 }
+				]
+			},
+			"cjj_x": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 102.98, "y": -102.73 }
+				]
+			},
+			"cjj_s": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 101.27, "y": 102.26 }
+				]
+			},
+			"cjj_b6": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "x": 27.35 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "y": 1.394 }
+				]
+			},
+			"cjj_b4": {
+				"translate": [
+					{ "time": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": 63.46 }
+				],
+				"scale": [
+					{ "time": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "y": 1.155 }
+				]
+			},
+			"cjj_b3": {
+				"translate": [
+					{ "time": 0.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "x": 53.58 }
+				],
+				"scale": [
+					{ "time": 0.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "y": 1.296 }
+				]
+			},
+			"cjj_b5": {
+				"translate": [
+					{ "time": 0.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "x": 49.82 }
+				],
+				"scale": [
+					{ "time": 0.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "y": 1.607 }
+				]
+			}
+		}
+	}
+}
+}

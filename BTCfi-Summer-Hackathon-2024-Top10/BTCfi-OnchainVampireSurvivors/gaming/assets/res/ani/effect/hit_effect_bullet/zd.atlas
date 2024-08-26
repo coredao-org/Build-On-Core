@@ -1,0 +1,41 @@
+
+zd.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zd_1
+  rotate: false
+  xy: 326, 26
+  size: 87, 87
+  orig: 97, 97
+  offset: 5, 5
+  index: -1
+zd_2
+  rotate: false
+  xy: 118, 8
+  size: 110, 105
+  orig: 122, 117
+  offset: 5, 5
+  index: -1
+zd_3
+  rotate: true
+  xy: 2, 2
+  size: 111, 114
+  orig: 122, 127
+  offset: 5, 5
+  index: -1
+zd_4
+  rotate: false
+  xy: 230, 23
+  size: 94, 90
+  orig: 99, 100
+  offset: 4, 5
+  index: -1
+zd_5
+  rotate: true
+  xy: 415, 20
+  size: 93, 65
+  orig: 95, 66
+  offset: 1, 1
+  index: -1

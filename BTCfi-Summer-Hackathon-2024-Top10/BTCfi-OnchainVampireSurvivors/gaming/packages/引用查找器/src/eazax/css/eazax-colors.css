@@ -1,0 +1,18 @@
+:root {
+  /* 背景颜色 */
+  --eazax-bg-color: #454545;
+  /* 主颜色 */
+  --eazax-main-color: #262626;
+  /* 强调色 */
+  --eazax-accent-color: #2e88fb;
+  /* 聚焦色 */
+  --eazax-focus-color: #fd942b;
+  /* 边框调色 */
+  --eazax-border-color: #171717;
+  /* 边框虚指调色 */
+  --eazax-border-hover-color: #888888;
+  /* 文本颜色 */
+  --eazax-font-color: #bdbdbd;
+  /* 内容颜色 */
+  --eazax-content-color: #fd942b;
+}

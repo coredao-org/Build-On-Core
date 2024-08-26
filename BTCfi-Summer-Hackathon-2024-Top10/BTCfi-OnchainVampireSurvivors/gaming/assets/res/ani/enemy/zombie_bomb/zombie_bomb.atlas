@@ -1,0 +1,265 @@
+
+zombie_bomb.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm1
+  rotate: true
+  xy: 359, 23
+  size: 22, 99
+  orig: 22, 99
+  offset: 0, 0
+  index: -1
+L_arm1_fake
+  rotate: false
+  xy: 1326, 135
+  size: 44, 119
+  orig: 44, 119
+  offset: 0, 0
+  index: -1
+L_arm2
+  rotate: true
+  xy: 559, 23
+  size: 22, 81
+  orig: 22, 81
+  offset: 0, 0
+  index: -1
+L_arm2_fake
+  rotate: false
+  xy: 1194, 4
+  size: 44, 101
+  orig: 44, 101
+  offset: 0, 0
+  index: -1
+R_arm2_fake
+  rotate: false
+  xy: 1194, 4
+  size: 44, 101
+  orig: 44, 101
+  offset: 0, 0
+  index: -1
+L_foot
+  rotate: true
+  xy: 345, 15
+  size: 30, 12
+  orig: 30, 12
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: true
+  xy: 345, 15
+  size: 30, 12
+  orig: 30, 12
+  offset: 0, 0
+  index: -1
+L_foot_fake
+  rotate: false
+  xy: 293, 12
+  size: 50, 33
+  orig: 50, 33
+  offset: 0, 0
+  index: -1
+R_foot_fake
+  rotate: false
+  xy: 293, 12
+  size: 50, 33
+  orig: 50, 33
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: false
+  xy: 931, 11
+  size: 67, 86
+  orig: 69, 88
+  offset: 1, 1
+  index: -1
+L_hand_fake
+  rotate: true
+  xy: 743, 4
+  size: 87, 106
+  orig: 90, 109
+  offset: 1, 2
+  index: -1
+L_leg1
+  rotate: true
+  xy: 359, 2
+  size: 19, 50
+  orig: 21, 52
+  offset: 1, 1
+  index: -1
+R_leg1
+  rotate: true
+  xy: 359, 2
+  size: 19, 50
+  orig: 21, 52
+  offset: 1, 1
+  index: -1
+L_leg1_fake
+  rotate: true
+  xy: 221, 6
+  size: 39, 70
+  orig: 43, 72
+  offset: 2, 1
+  index: -1
+R_leg1_fake
+  rotate: true
+  xy: 221, 6
+  size: 39, 70
+  orig: 43, 72
+  offset: 2, 1
+  index: -1
+L_leg2
+  rotate: true
+  xy: 563, 64
+  size: 21, 53
+  orig: 21, 53
+  offset: 0, 0
+  index: -1
+R_leg2
+  rotate: true
+  xy: 563, 64
+  size: 21, 53
+  orig: 21, 53
+  offset: 0, 0
+  index: -1
+L_leg2_fake
+  rotate: true
+  xy: 145, 2
+  size: 43, 74
+  orig: 43, 74
+  offset: 0, 0
+  index: -1
+R_leg2_fake
+  rotate: true
+  xy: 145, 2
+  size: 43, 74
+  orig: 43, 74
+  offset: 0, 0
+  index: -1
+R_arm1
+  rotate: true
+  xy: 460, 23
+  size: 22, 97
+  orig: 22, 97
+  offset: 0, 0
+  index: -1
+R_arm1_fake
+  rotate: false
+  xy: 1372, 146
+  size: 44, 108
+  orig: 44, 108
+  offset: 0, 0
+  index: -1
+R_arm2
+  rotate: false
+  xy: 642, 4
+  size: 22, 81
+  orig: 22, 81
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: false
+  xy: 1382, 69
+  size: 58, 75
+  orig: 60, 77
+  offset: 1, 1
+  index: -1
+R_hand_fake
+  rotate: false
+  xy: 851, 2
+  size: 78, 95
+  orig: 81, 97
+  offset: 1, 1
+  index: -1
+backpack
+  rotate: false
+  xy: 1105, 100
+  size: 77, 154
+  orig: 81, 158
+  offset: 2, 2
+  index: -1
+body
+  rotate: false
+  xy: 2, 13
+  size: 141, 241
+  orig: 141, 241
+  offset: 0, 0
+  index: -1
+body_fake
+  rotate: true
+  xy: 848, 99
+  size: 155, 255
+  orig: 155, 255
+  offset: 0, 0
+  index: -1
+bomb1
+  rotate: false
+  xy: 145, 47
+  size: 207, 207
+  orig: 211, 211
+  offset: 2, 2
+  index: -1
+bomb2
+  rotate: false
+  xy: 666, 5
+  size: 75, 80
+  orig: 77, 82
+  offset: 1, 1
+  index: -1
+bomb3
+  rotate: false
+  xy: 1382, 5
+  size: 71, 62
+  orig: 71, 62
+  offset: 0, 0
+  index: -1
+bomb_fx0
+  rotate: false
+  xy: 1184, 107
+  size: 140, 147
+  orig: 144, 150
+  offset: 2, 2
+  index: -1
+bomb_fx1
+  rotate: true
+  xy: 563, 87
+  size: 167, 146
+  orig: 171, 151
+  offset: 2, 2
+  index: -1
+bomb_fx2
+  rotate: true
+  xy: 711, 93
+  size: 161, 135
+  orig: 162, 163
+  offset: 1, 18
+  index: -1
+bomb_light1
+  rotate: false
+  xy: 354, 47
+  size: 207, 207
+  orig: 211, 211
+  offset: 2, 2
+  index: -1
+bomb_light2
+  rotate: false
+  xy: 1117, 18
+  size: 75, 80
+  orig: 77, 82
+  offset: 1, 1
+  index: -1
+glass
+  rotate: false
+  xy: 1000, 13
+  size: 115, 84
+  orig: 119, 88
+  offset: 2, 2
+  index: -1
+yy
+  rotate: false
+  xy: 1240, 30
+  size: 140, 75
+  orig: 140, 75
+  offset: 0, 0
+  index: -1

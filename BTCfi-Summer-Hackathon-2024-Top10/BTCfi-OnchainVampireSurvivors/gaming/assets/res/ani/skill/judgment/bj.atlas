@@ -1,0 +1,34 @@
+
+bj.png
+size: 321,206
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dbj
+  rotate: true
+  xy: 131, 0
+  size: 77, 190
+  orig: 79, 195
+  offset: 1, 4
+  index: -1
+g
+  rotate: true
+  xy: 0, 97
+  size: 109, 286
+  orig: 112, 307
+  offset: 3, 6
+  index: -1
+jianqi
+  rotate: false
+  xy: 0, 4
+  size: 129, 91
+  orig: 131, 93
+  offset: 1, 0
+  index: -1
+jianqiguanghuan
+  rotate: true
+  xy: 288, 79
+  size: 127, 22
+  orig: 127, 22
+  offset: 0, 0
+  index: -1

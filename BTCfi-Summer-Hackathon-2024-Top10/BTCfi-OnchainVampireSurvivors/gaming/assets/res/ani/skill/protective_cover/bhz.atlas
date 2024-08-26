@@ -1,0 +1,55 @@
+
+bhz.png
+size: 811,339
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fengwowen-gg
+  rotate: false
+  xy: 0, 47
+  size: 280, 292
+  orig: 357, 383
+  offset: 14, 91
+  index: -1
+guangquan-1
+  rotate: false
+  xy: 282, 161
+  size: 182, 178
+  orig: 183, 180
+  offset: 0, 1
+  index: -1
+guangquan-2
+  rotate: false
+  xy: 466, 162
+  size: 183, 177
+  orig: 185, 181
+  offset: 0, 1
+  index: -1
+neiquan-1
+  rotate: false
+  xy: 282, 2
+  size: 159, 157
+  orig: 159, 159
+  offset: 0, 2
+  index: -1
+neiquan-2
+  rotate: false
+  xy: 443, 0
+  size: 159, 159
+  orig: 159, 159
+  offset: 0, 0
+  index: -1
+neiquan-3
+  rotate: false
+  xy: 604, 1
+  size: 159, 159
+  orig: 159, 159
+  offset: 0, 0
+  index: -1
+shibian
+  rotate: false
+  xy: 651, 179
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1

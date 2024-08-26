@@ -1,0 +1,34 @@
+
+wqtx.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wqtx_1
+  rotate: false
+  xy: 313, 6
+  size: 182, 96
+  orig: 183, 96
+  offset: 1, 0
+  index: -1
+wqtx_2
+  rotate: false
+  xy: 2, 64
+  size: 309, 281
+  orig: 313, 286
+  offset: 2, 2
+  index: -1
+wqtx_3
+  rotate: false
+  xy: 313, 104
+  size: 419, 241
+  orig: 422, 242
+  offset: 2, 1
+  index: -1
+wqtx_4
+  rotate: true
+  xy: 734, 2
+  size: 343, 208
+  orig: 350, 209
+  offset: 1, 1
+  index: -1

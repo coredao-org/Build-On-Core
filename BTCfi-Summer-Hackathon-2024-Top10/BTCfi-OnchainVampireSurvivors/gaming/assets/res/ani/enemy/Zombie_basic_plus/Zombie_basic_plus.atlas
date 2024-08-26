@@ -1,0 +1,265 @@
+
+Zombie_basic_plus.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm1
+  rotate: true
+  xy: 1390, 10
+  size: 76, 30
+  orig: 78, 32
+  offset: 1, 1
+  index: -1
+L_arm1_fake
+  rotate: false
+  xy: 1513, 111
+  size: 92, 46
+  orig: 96, 49
+  offset: 2, 1
+  index: -1
+L_arm2
+  rotate: true
+  xy: 428, 13
+  size: 60, 31
+  orig: 62, 33
+  offset: 1, 1
+  index: -1
+L_arm2_fake
+  rotate: true
+  xy: 1341, 10
+  size: 76, 47
+  orig: 80, 51
+  offset: 2, 2
+  index: -1
+L_foot
+  rotate: false
+  xy: 632, 4
+  size: 44, 17
+  orig: 44, 17
+  offset: 0, 0
+  index: -1
+L_foot_fake
+  rotate: true
+  xy: 204, 6
+  size: 64, 38
+  orig: 64, 38
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: true
+  xy: 552, 15
+  size: 58, 78
+  orig: 60, 80
+  offset: 1, 1
+  index: -1
+L_hand_fake
+  rotate: true
+  xy: 850, 2
+  size: 74, 94
+  orig: 78, 97
+  offset: 2, 1
+  index: -1
+L_leg1
+  rotate: false
+  xy: 1563, 179
+  size: 28, 75
+  orig: 30, 77
+  offset: 1, 1
+  index: -1
+L_leg1_fake
+  rotate: true
+  xy: 946, 28
+  size: 48, 95
+  orig: 52, 97
+  offset: 2, 1
+  index: -1
+L_leg2
+  rotate: false
+  xy: 1277, 8
+  size: 30, 78
+  orig: 30, 78
+  offset: 0, 0
+  index: -1
+L_leg2_fake
+  rotate: true
+  xy: 2, 3
+  size: 52, 99
+  orig: 52, 99
+  offset: 0, 0
+  index: -1
+R_arm1
+  rotate: true
+  xy: 394, 2
+  size: 71, 32
+  orig: 73, 34
+  offset: 1, 1
+  index: -1
+R_arm1_fake
+  rotate: false
+  xy: 680, 25
+  size: 90, 49
+  orig: 95, 53
+  offset: 3, 2
+  index: -1
+R_arm2
+  rotate: true
+  xy: 360, 10
+  size: 60, 32
+  orig: 62, 34
+  offset: 1, 1
+  index: -1
+R_arm2_fake
+  rotate: false
+  xy: 772, 25
+  size: 76, 49
+  orig: 78, 51
+  offset: 1, 1
+  index: -1
+R_foot
+  rotate: false
+  xy: 678, 4
+  size: 44, 17
+  orig: 44, 17
+  offset: 0, 0
+  index: -1
+R_foot_fake
+  rotate: true
+  xy: 244, 6
+  size: 64, 38
+  orig: 64, 38
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: true
+  xy: 284, 7
+  size: 63, 74
+  orig: 65, 76
+  offset: 1, 1
+  index: -1
+R_hand_fake
+  rotate: true
+  xy: 1185, 7
+  size: 79, 90
+  orig: 83, 93
+  offset: 2, 1
+  index: -1
+R_leg1
+  rotate: false
+  xy: 1593, 179
+  size: 28, 75
+  orig: 30, 77
+  offset: 1, 1
+  index: -1
+R_leg1_fake
+  rotate: false
+  xy: 1513, 159
+  size: 48, 95
+  orig: 52, 97
+  offset: 2, 1
+  index: -1
+R_leg2
+  rotate: false
+  xy: 1309, 8
+  size: 30, 78
+  orig: 30, 78
+  offset: 0, 0
+  index: -1
+R_leg2_fake
+  rotate: true
+  xy: 103, 3
+  size: 52, 99
+  orig: 52, 99
+  offset: 0, 0
+  index: -1
+backpack
+  rotate: false
+  xy: 1052, 85
+  size: 78, 169
+  orig: 82, 173
+  offset: 2, 2
+  index: -1
+body
+  rotate: true
+  xy: 1132, 88
+  size: 166, 265
+  orig: 166, 265
+  offset: 0, 0
+  index: -1
+body2
+  rotate: false
+  xy: 786, 78
+  size: 163, 176
+  orig: 163, 176
+  offset: 0, 0
+  index: -1
+body_fake
+  rotate: true
+  xy: 362, 75
+  size: 179, 279
+  orig: 179, 279
+  offset: 0, 0
+  index: -1
+body_fake2
+  rotate: true
+  xy: 951, 79
+  size: 175, 99
+  orig: 177, 101
+  offset: 1, 1
+  index: -1
+claws_fx1
+  rotate: false
+  xy: 198, 72
+  size: 162, 182
+  orig: 162, 189
+  offset: 0, 7
+  index: -1
+claws_fx2
+  rotate: false
+  xy: 643, 76
+  size: 141, 178
+  orig: 162, 189
+  offset: 0, 2
+  index: -1
+claws_fx3
+  rotate: false
+  xy: 1399, 105
+  size: 112, 149
+  orig: 162, 189
+  offset: 0, 2
+  index: -1
+claws_fx4
+  rotate: true
+  xy: 461, 15
+  size: 58, 89
+  orig: 162, 189
+  offset: 0, 0
+  index: -1
+claws_fx5
+  rotate: false
+  xy: 632, 23
+  size: 46, 50
+  orig: 162, 189
+  offset: 1, 0
+  index: -1
+glass
+  rotate: false
+  xy: 1422, 4
+  size: 138, 99
+  orig: 142, 103
+  offset: 2, 2
+  index: -1
+hat
+  rotate: false
+  xy: 2, 57
+  size: 194, 197
+  orig: 194, 199
+  offset: 0, 1
+  index: -1
+yy
+  rotate: false
+  xy: 1043, 2
+  size: 140, 75
+  orig: 140, 75
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+dian.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gj
+  rotate: false
+  xy: 239, 2
+  size: 34, 117
+  orig: 34, 135
+  offset: 0, 0
+  index: -1
+xiaoquan
+  rotate: false
+  xy: 2, 2
+  size: 235, 236
+  orig: 248, 249
+  offset: 6, 7
+  index: -1
+zhi
+  rotate: true
+  xy: 239, 121
+  size: 117, 106
+  orig: 117, 106
+  offset: 0, 0
+  index: -1

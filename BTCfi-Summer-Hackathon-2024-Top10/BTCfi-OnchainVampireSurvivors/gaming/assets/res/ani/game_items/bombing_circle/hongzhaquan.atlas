@@ -1,0 +1,20 @@
+
+hongzhaquan.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hzd_bq
+  rotate: false
+  xy: 419, 24
+  size: 384, 279
+  orig: 384, 279
+  offset: 0, 0
+  index: -1
+hzd_hq
+  rotate: false
+  xy: 2, 2
+  size: 415, 301
+  orig: 415, 301
+  offset: 0, 0
+  index: -1

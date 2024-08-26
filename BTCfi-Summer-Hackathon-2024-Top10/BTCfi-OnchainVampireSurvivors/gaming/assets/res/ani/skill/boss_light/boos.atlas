@@ -1,0 +1,48 @@
+
+boos.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx01
+  rotate: true
+  xy: 2, 2
+  size: 201, 227
+  orig: 204, 227
+  offset: 2, 0
+  index: -1
+fx02
+  rotate: true
+  xy: 231, 2
+  size: 201, 230
+  orig: 204, 230
+  offset: 2, 0
+  index: -1
+fx03
+  rotate: true
+  xy: 463, 2
+  size: 201, 215
+  orig: 204, 215
+  offset: 2, 0
+  index: -1
+fx04
+  rotate: true
+  xy: 680, 2
+  size: 201, 223
+  orig: 204, 223
+  offset: 2, 0
+  index: -1
+fx05
+  rotate: true
+  xy: 905, 2
+  size: 201, 230
+  orig: 204, 230
+  offset: 2, 0
+  index: -1
+fx06
+  rotate: true
+  xy: 1137, 2
+  size: 201, 221
+  orig: 204, 221
+  offset: 2, 0
+  index: -1

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.Material",
+  "_name": "attacked",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "953ac1a3-b553-4ca0-ab3a-42e019f36acf"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": false,
+        "USE_ALPHA_TEST": false,
+        "USE_TINT": false
+      },
+      "props": {
+        "addColor": {
+          "__type__": "cc.Vec4",
+          "x": 0.2,
+          "y": 0.3,
+          "z": 1,
+          "w": 0.8
+        },
+        "alphaThreshold": 0
+      }
+    }
+  }
+}
