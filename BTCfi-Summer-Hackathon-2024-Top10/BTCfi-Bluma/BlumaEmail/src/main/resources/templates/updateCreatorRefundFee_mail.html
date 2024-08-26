@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refund Processed Notification</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .header img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 20px;
+            color: #333333;
+        }
+
+        .content p {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+
+        .content .highlight {
+            font-weight: bold;
+            color: #4CAF50;
+        }
+
+        .content .refund-info {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #4CAF50;
+        }
+
+        .footer {
+            background-color: #324744;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        .footer .social-icons {
+            margin-top: 10px;
+        }
+
+        .footer .social-icons i {
+            margin: 0 5px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .footer .social-icons i:hover {
+            color: #4CAF50;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+
+            .header h1 {
+                font-size: 20px;
+            }
+
+            .content p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <img src="https://res.cloudinary.com/dy7el0ucd/image/upload/v1713701831/Logo_aatjg0.svg" alt="Bluma Logo">
+        <h1>Refund Processed</h1>
+    </div>
+    <div class="content">
+        <p>Hi <span th:text="${fullName}"></span>,</p>
+        <p>We wanted to let you know that a refund has been processed for one of the tickets sold for your event <span class="highlight" th:text="${eventTitle}"></span>.</p>
+        <div class="refund-info">
+            <p><strong>Event Title:</strong> <span th:text="${eventTitle}"></span></p>
+            <p><strong>Amount Refunded:</strong> <span th:text="${amount}"></span></p>
+        </div>
+        <p><strong>Refund Processed On:</strong> <span th:text="${purchaseTime}"></span></p>
+        <p>If you have any questions or need further assistance, please don't hesitate to contact us.</p>
+        <p class="highlight">Thank you for being a valued member of the Bluma community!</p>
+        <p style="font-style: italic;"><strong>Best regards,</strong></p>
+        <p style="font-style: italic;"><strong>The Bluma Event Team</strong></p>
+    </div>
+    <div class="footer">
+        <p>Connect with us on:</p>
+        <div class="social-icons">
+            <i class="ri-instagram-fill"></i>
+            <i class="ri-twitter-x-fill"></i>
+            <i class="ri-facebook-circle-fill"></i>
+        </div>
+        <p>&copy; All rights reserved - Bluma Event Platform</p>
+    </div>
+</div>
+</body>
+</html>
