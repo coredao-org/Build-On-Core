@@ -1,0 +1,8 @@
+html, body, #root {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.ant-list-item-meta-title {
+  font-size: 16px!important;
+}
