@@ -1,0 +1,27 @@
+
+j.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+j1
+  rotate: false
+  xy: 2, 2
+  size: 125, 94
+  orig: 127, 96
+  offset: 1, 1
+  index: -1
+j2
+  rotate: true
+  xy: 129, 12
+  size: 84, 62
+  orig: 84, 62
+  offset: 0, 0
+  index: -1
+j3
+  rotate: true
+  xy: 193, 32
+  size: 64, 47
+  orig: 64, 47
+  offset: 0, 0
+  index: -1

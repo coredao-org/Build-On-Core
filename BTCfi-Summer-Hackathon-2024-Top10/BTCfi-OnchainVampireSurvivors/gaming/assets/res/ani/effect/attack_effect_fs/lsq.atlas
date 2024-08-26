@@ -1,0 +1,62 @@
+
+lsq.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ls_b1
+  rotate: false
+  xy: 426, 36
+  size: 215, 18
+  orig: 215, 18
+  offset: 0, 0
+  index: -1
+lsg_b1
+  rotate: false
+  xy: 426, 36
+  size: 215, 18
+  orig: 215, 18
+  offset: 0, 0
+  index: -1
+ls_b2
+  rotate: false
+  xy: 426, 16
+  size: 138, 18
+  orig: 138, 18
+  offset: 0, 0
+  index: -1
+lsg_b2
+  rotate: false
+  xy: 426, 16
+  size: 138, 18
+  orig: 138, 18
+  offset: 0, 0
+  index: -1
+ls_h1
+  rotate: false
+  xy: 2, 2
+  size: 210, 52
+  orig: 210, 52
+  offset: 0, 0
+  index: -1
+ls_h2
+  rotate: false
+  xy: 643, 2
+  size: 132, 52
+  orig: 132, 52
+  offset: 0, 0
+  index: -1
+lsg_h1
+  rotate: false
+  xy: 214, 2
+  size: 210, 52
+  orig: 210, 52
+  offset: 0, 0
+  index: -1
+lsg_h2
+  rotate: false
+  xy: 777, 2
+  size: 132, 52
+  orig: 132, 52
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7f50841c-539e-4276-ac73-feac004582cb",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 155,
+  "height": 156,
+  "platformSettings": {},
+  "subMetas": {
+    "avalanche_logo": {
+      "ver": "1.0.6",
+      "uuid": "626a2194-14a5-4e5e-bcb4-b871176c6590",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7f50841c-539e-4276-ac73-feac004582cb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 155,
+      "height": 156,
+      "rawWidth": 155,
+      "rawHeight": 156,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

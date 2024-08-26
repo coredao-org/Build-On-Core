@@ -1,0 +1,48 @@
+
+jgjz.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jg_s
+  rotate: true
+  xy: 182, 2
+  size: 49, 60
+  orig: 49, 61
+  offset: 0, 1
+  index: -1
+jg_s2
+  rotate: false
+  xy: 244, 2
+  size: 60, 49
+  orig: 61, 49
+  offset: 1, 0
+  index: -1
+jg_w
+  rotate: true
+  xy: 2, 24
+  size: 95, 88
+  orig: 99, 94
+  offset: 2, 3
+  index: -1
+jg_w2
+  rotate: true
+  xy: 92, 24
+  size: 95, 88
+  orig: 99, 94
+  offset: 2, 3
+  index: -1
+jg_z
+  rotate: false
+  xy: 182, 53
+  size: 63, 66
+  orig: 72, 76
+  offset: 4, 5
+  index: -1
+jg_z2
+  rotate: false
+  xy: 247, 53
+  size: 63, 66
+  orig: 72, 76
+  offset: 5, 5
+  index: -1

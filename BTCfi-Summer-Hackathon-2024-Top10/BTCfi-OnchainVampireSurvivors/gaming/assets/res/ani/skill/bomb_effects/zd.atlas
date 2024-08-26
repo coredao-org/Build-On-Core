@@ -1,0 +1,55 @@
+
+zd.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zd_1
+  rotate: true
+  xy: 693, 8
+  size: 296, 295
+  orig: 322, 327
+  offset: 13, 16
+  index: -1
+zd_2
+  rotate: true
+  xy: 302, 286
+  size: 349, 342
+  orig: 374, 380
+  offset: 15, 19
+  index: -1
+zd_3
+  rotate: false
+  xy: 2, 637
+  size: 465, 366
+  orig: 467, 380
+  offset: 1, 7
+  index: -1
+zd_4
+  rotate: false
+  xy: 469, 637
+  size: 440, 366
+  orig: 442, 380
+  offset: 1, 7
+  index: -1
+zd_5
+  rotate: true
+  xy: 2, 157
+  size: 478, 298
+  orig: 480, 300
+  offset: 1, 1
+  index: -1
+zd_6
+  rotate: false
+  xy: 302, 2
+  size: 389, 282
+  orig: 391, 285
+  offset: 1, 2
+  index: -1
+zd_7
+  rotate: true
+  xy: 646, 306
+  size: 329, 281
+  orig: 332, 284
+  offset: 2, 1
+  index: -1

@@ -1,0 +1,18 @@
+info face="face" size=28
+common lineHeight=28 scaleW=130 scaleH=118 pages=1
+page id=0 file="storeFont1.png"
+chars count=14
+char id=37 x=0 y=0 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=43 x=33 y=0 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=45 x=0 y=30 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=48 x=33 y=30 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=49 x=66 y=0 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=46 x=66 y=30 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=50 x=0 y=60 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=51 x=33 y=60 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=52 x=66 y=60 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=53 x=99 y=0 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=54 x=99 y=30 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=55 x=99 y=60 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=56 x=0 y=90 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
+char id=57 x=33 y=90 width=31 height=28 xoffset=0 yoffset=0 xadvance=31 page=0 chnl=15
