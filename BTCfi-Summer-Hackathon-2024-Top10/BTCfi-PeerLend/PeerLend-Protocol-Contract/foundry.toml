@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+verbosity = 5
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+[rpc_endpoints]
+sepolia = "${BASE_SEPOLIA_RPC}"
+
+# [etherscan]
+# sepolia = { key = "${ETHERSCAN_API_KEY}" }
