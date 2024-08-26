@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 18% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 18% 4%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 18% 4%;
+    --popover-foreground: 0 0% 98%;
+
+    --initial: 221 84% 53%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+
+    --secondary: 240 7% 16%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 7% 16%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 240 7% 16%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 356 75% 57%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 7% 16%;
+    --input: 240 7% 16%;
+    --ring: 0 0% 83.1%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+*,
+*::before,
+*::after,
+pre,
+code {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
