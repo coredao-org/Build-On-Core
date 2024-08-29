@@ -1,0 +1,49 @@
+{
+"skeleton": {
+	"hash": "+kxuMC873amvduwzOUKPRkXz5tw",
+	"spine": "3.8.99",
+	"x": -230.5,
+	"y": -167,
+	"width": 461,
+	"height": 334,
+	"images": "./images/",
+	"audio": "C:/Users/QianHu002/Desktop/动画/火线枪战躲猫猫/轰炸圈/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "hzd_bq", "parent": "root" }
+],
+"slots": [
+	{ "name": "hzd_hq", "bone": "root", "attachment": "hzd_hq" },
+	{ "name": "hzd_bq", "bone": "hzd_bq", "attachment": "hzd_bq" },
+	{ "name": "hzd_bq2", "bone": "root", "attachment": "hzd_bq" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"hzd_bq": {
+				"hzd_bq": { "width": 427, "height": 310 }
+			},
+			"hzd_bq2": {
+				"hzd_bq": { "width": 427, "height": 310 }
+			},
+			"hzd_hq": {
+				"hzd_hq": { "width": 461, "height": 334 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"hzd_bq": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "x": 0.006, "y": 0.006 }
+				]
+			}
+		}
+	}
+}
+}

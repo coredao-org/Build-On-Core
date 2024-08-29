@@ -1,0 +1,293 @@
+
+Zombie_tank.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm1
+  rotate: false
+  xy: 862, 148
+  size: 81, 72
+  orig: 83, 74
+  offset: 1, 1
+  index: -1
+L_arm1_fake
+  rotate: true
+  xy: 1211, 197
+  size: 101, 92
+  orig: 105, 94
+  offset: 2, 1
+  index: -1
+L_arm2
+  rotate: false
+  xy: 1029, 153
+  size: 73, 67
+  orig: 75, 69
+  offset: 1, 1
+  index: -1
+L_arm2_fake
+  rotate: true
+  xy: 1433, 417
+  size: 93, 87
+  orig: 96, 91
+  offset: 1, 2
+  index: -1
+L_foot
+  rotate: true
+  xy: 841, 148
+  size: 58, 19
+  orig: 58, 19
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: true
+  xy: 841, 148
+  size: 58, 19
+  orig: 58, 19
+  offset: 0, 0
+  index: -1
+L_foot_fake
+  rotate: false
+  xy: 743, 21
+  size: 78, 40
+  orig: 78, 40
+  offset: 0, 0
+  index: -1
+R_foot_fake
+  rotate: false
+  xy: 743, 21
+  size: 78, 40
+  orig: 78, 40
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: false
+  xy: 945, 149
+  size: 82, 71
+  orig: 84, 73
+  offset: 1, 1
+  index: -1
+L_hand2
+  rotate: true
+  xy: 870, 5
+  size: 70, 99
+  orig: 72, 101
+  offset: 1, 1
+  index: -1
+L_hand_fake
+  rotate: true
+  xy: 1305, 222
+  size: 102, 91
+  orig: 104, 93
+  offset: 1, 1
+  index: -1
+L_leg1
+  rotate: true
+  xy: 469, 2
+  size: 43, 77
+  orig: 45, 79
+  offset: 1, 1
+  index: -1
+R_leg1
+  rotate: true
+  xy: 469, 2
+  size: 43, 77
+  orig: 45, 79
+  offset: 1, 1
+  index: -1
+L_leg1_fake
+  rotate: true
+  xy: 742, 143
+  size: 63, 97
+  orig: 67, 101
+  offset: 2, 2
+  index: -1
+R_leg1_fake
+  rotate: true
+  xy: 742, 143
+  size: 63, 97
+  orig: 67, 101
+  offset: 2, 2
+  index: -1
+L_leg2
+  rotate: false
+  xy: 823, 4
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+R_leg2
+  rotate: false
+  xy: 823, 4
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+L_leg2_fake
+  rotate: true
+  xy: 953, 80
+  size: 67, 79
+  orig: 67, 79
+  offset: 0, 0
+  index: -1
+R_leg2_fake
+  rotate: true
+  xy: 953, 80
+  size: 67, 79
+  orig: 67, 79
+  offset: 0, 0
+  index: -1
+R_arm
+  rotate: true
+  xy: 548, 3
+  size: 49, 94
+  orig: 49, 94
+  offset: 0, 0
+  index: -1
+R_arm_fake
+  rotate: true
+  xy: 846, 77
+  size: 69, 105
+  orig: 69, 115
+  offset: 0, 0
+  index: -1
+backpack
+  rotate: true
+  xy: 533, 54
+  size: 78, 169
+  orig: 82, 173
+  offset: 2, 2
+  index: -1
+body
+  rotate: false
+  xy: 851, 222
+  size: 212, 288
+  orig: 212, 288
+  offset: 0, 0
+  index: -1
+body2
+  rotate: true
+  xy: 1065, 300
+  size: 210, 184
+  orig: 210, 184
+  offset: 0, 0
+  index: -1
+body_fake
+  rotate: false
+  xy: 623, 208
+  size: 226, 302
+  orig: 226, 302
+  offset: 0, 0
+  index: -1
+body_fake2
+  rotate: false
+  xy: 2, 3
+  size: 222, 120
+  orig: 224, 121
+  offset: 1, 1
+  index: -1
+eye
+  rotate: true
+  xy: 347, 2
+  size: 43, 120
+  orig: 43, 120
+  offset: 0, 0
+  index: -1
+fx1
+  rotate: false
+  xy: 2, 125
+  size: 354, 385
+  orig: 355, 387
+  offset: 0, 1
+  index: -1
+fx2
+  rotate: false
+  xy: 358, 134
+  size: 263, 376
+  orig: 355, 387
+  offset: 92, 6
+  index: -1
+fx3
+  rotate: true
+  xy: 1251, 326
+  size: 184, 180
+  orig: 355, 387
+  offset: 171, 1
+  index: -1
+fx4
+  rotate: false
+  xy: 347, 47
+  size: 184, 76
+  orig: 355, 387
+  offset: 171, 1
+  index: -1
+glass
+  rotate: true
+  xy: 1050, 20
+  size: 131, 94
+  orig: 135, 98
+  offset: 2, 2
+  index: -1
+hat
+  rotate: false
+  xy: 1146, 34
+  size: 216, 154
+  orig: 216, 154
+  offset: 0, 0
+  index: -1
+knife
+  rotate: true
+  xy: 1364, 4
+  size: 216, 152
+  orig: 216, 152
+  offset: 0, 0
+  index: -1
+weapon2_fake
+  rotate: false
+  xy: 1398, 227
+  size: 92, 97
+  orig: 95, 100
+  offset: 2, 1
+  index: -1
+weapon3_fake
+  rotate: true
+  xy: 623, 140
+  size: 66, 117
+  orig: 69, 119
+  offset: 1, 1
+  index: -1
+wepon1
+  rotate: false
+  xy: 226, 3
+  size: 119, 120
+  orig: 121, 122
+  offset: 1, 1
+  index: -1
+wepon1_fake
+  rotate: false
+  xy: 1104, 190
+  size: 105, 108
+  orig: 107, 110
+  offset: 1, 1
+  index: -1
+wepon2
+  rotate: true
+  xy: 971, 6
+  size: 72, 77
+  orig: 74, 79
+  offset: 1, 1
+  index: -1
+wepon3
+  rotate: true
+  xy: 644, 6
+  size: 46, 97
+  orig: 48, 99
+  offset: 1, 1
+  index: -1
+yy
+  rotate: false
+  xy: 704, 63
+  size: 140, 75
+  orig: 140, 75
+  offset: 0, 0
+  index: -1

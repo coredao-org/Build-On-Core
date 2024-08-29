@@ -1,0 +1,41 @@
+
+mbtx.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mb_1
+  rotate: true
+  xy: 261, 9
+  size: 110, 102
+  orig: 115, 108
+  offset: 3, 3
+  index: -1
+mb_2
+  rotate: true
+  xy: 147, 2
+  size: 117, 112
+  orig: 135, 136
+  offset: 6, 12
+  index: -1
+mb_3
+  rotate: true
+  xy: 147, 121
+  size: 132, 117
+  orig: 132, 117
+  offset: 0, 0
+  index: -1
+mb_4
+  rotate: true
+  xy: 2, 93
+  size: 160, 143
+  orig: 179, 172
+  offset: 2, 13
+  index: -1
+mb_5
+  rotate: true
+  xy: 266, 155
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1

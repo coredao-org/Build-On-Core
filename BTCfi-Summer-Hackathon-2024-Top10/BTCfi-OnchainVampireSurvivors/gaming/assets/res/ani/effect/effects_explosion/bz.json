@@ -1,0 +1,229 @@
+{
+"skeleton": {
+	"hash": "dhTYRsFasZSyvAPw6GkbPMO753s",
+	"spine": "3.8.99",
+	"x": -519.43,
+	"y": -349.7,
+	"width": 1149.85,
+	"height": 923.27,
+	"images": "./images/",
+	"audio": "C:/Users/QianHu002/Desktop/动画/火线枪战躲猫猫/爆炸特效/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "b1_1", "parent": "root", "x": 59.28, "y": 44.43, "scaleX": 0.874, "scaleY": 0.874 },
+	{
+		"name": "b3_4",
+		"parent": "root",
+		"x": -22.32,
+		"y": 64.61,
+		"scaleX": -0.392,
+		"scaleY": -0.392,
+		"color": "ff9300ff"
+	},
+	{ "name": "b1_3", "parent": "root", "x": 86.94, "y": 226.74, "color": "f89d5fff" },
+	{ "name": "b2_3", "parent": "root", "x": 48.61, "y": 149.63, "color": "003affff" }
+],
+"slots": [
+	{ "name": "b1_1", "bone": "b1_1", "attachment": "b1_1" },
+	{ "name": "b1_6", "bone": "root", "attachment": "b1_6" },
+	{ "name": "b1_5", "bone": "root", "attachment": "b1_5" },
+	{ "name": "b3_8", "bone": "root" },
+	{ "name": "b3_7", "bone": "root", "attachment": "b3_7" },
+	{ "name": "b3_1", "bone": "root" },
+	{ "name": "b3_6", "bone": "root", "attachment": "b3_6" },
+	{ "name": "b3_5", "bone": "root" },
+	{ "name": "b3_4", "bone": "b3_4", "attachment": "b3_4" },
+	{ "name": "b3_3", "bone": "root" },
+	{ "name": "b2_2", "bone": "root" },
+	{ "name": "b2_7", "bone": "root" },
+	{ "name": "b2_6", "bone": "root" },
+	{ "name": "b2_5", "bone": "root" },
+	{ "name": "b2_4", "bone": "root" },
+	{ "name": "b2_3", "bone": "b2_3", "attachment": "b2_3" },
+	{ "name": "b2_1", "bone": "root" },
+	{ "name": "b1_4", "bone": "root" },
+	{ "name": "b1_3", "bone": "b1_3", "attachment": "b1_3" },
+	{ "name": "b1_2", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"b1_1": {
+				"b1_1": { "x": -1, "y": 13.07, "width": 1309, "height": 834 },
+				"b2_2": { "x": -3, "y": 9.57, "width": 1603, "height": 1019 },
+				"b3_1": { "x": -26, "y": 20.07, "width": 1981, "height": 1096 }
+			},
+			"b1_2": {
+				"b1_2": { "x": -34.72, "y": 173.5, "width": 763, "height": 468 }
+			},
+			"b1_3": {
+				"b1_3": { "x": -3.16, "y": -6.68, "width": 934, "height": 707 }
+			},
+			"b1_4": {
+				"b1_4": { "x": 123.28, "y": 463.5, "width": 197, "height": 152 }
+			},
+			"b1_5": {
+				"b1_5": { "x": 12.28, "y": 71, "width": 323, "height": 217 }
+			},
+			"b1_6": {
+				"b1_6": { "x": 55.78, "y": 79.5, "width": 316, "height": 210 }
+			},
+			"b2_1": {
+				"b2_1": { "x": -13.72, "y": 125.5, "width": 485, "height": 358 }
+			},
+			"b2_3": {
+				"b2_3": { "x": -15.83, "y": 8.37, "width": 530, "height": 285 },
+				"b2_4": { "x": -86.33, "y": -119.13, "width": 469, "height": 254 },
+				"b2_5": { "x": -58.83, "y": -36.13, "width": 1080, "height": 764 },
+				"b2_6": { "x": -32.33, "y": 36.87, "width": 1495, "height": 958 }
+			},
+			"b2_7": {
+				"b2_7": { "x": 32.78, "y": 81.5, "width": 746, "height": 540 }
+			},
+			"b3_3": {
+				"b3_3": { "x": 234.28, "y": 343, "width": 503, "height": 491 }
+			},
+			"b3_4": {
+				"b3_4": { "x": 35.1, "y": 86.4, "width": 2466, "height": 1941 }
+			},
+			"b3_5": {
+				"b3_5": { "x": -17.72, "y": 54.5, "width": 729, "height": 470 }
+			},
+			"b3_6": {
+				"b3_6": { "x": 57.28, "y": 57.5, "width": 817, "height": 494 }
+			},
+			"b3_7": {
+				"b3_7": { "x": 55.28, "y": 73, "width": 699, "height": 699 }
+			},
+			"b3_8": {
+				"b3_8": { "x": 34.78, "y": -60.5, "width": 1112, "height": 1112 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"b1_1": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "b2_2" },
+					{ "time": 0.2667, "name": "b3_1" }
+				]
+			},
+			"b1_2": {
+				"attachment": [
+					{ "time": 0.1333, "name": "b1_2" },
+					{ "time": 0.2333, "name": null }
+				]
+			},
+			"b1_3": {
+				"color": [
+					{ "time": 0.3667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"b1_5": {
+				"color": [
+					{ "time": 0.3667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"b1_6": {
+				"color": [
+					{ "time": 0.3667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"b2_1": {
+				"attachment": [
+					{ "time": 0.1333, "name": "b2_1" },
+					{ "time": 0.2333, "name": null }
+				]
+			},
+			"b2_3": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.2333, "name": "b2_3" },
+					{ "time": 0.2667, "name": "b2_4" },
+					{ "time": 0.3333, "name": "b2_5" },
+					{ "time": 0.3667, "name": "b2_6" }
+				]
+			},
+			"b2_7": {
+				"attachment": [
+					{ "time": 0.2333, "name": "b2_7" },
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"b3_4": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"b3_5": {
+				"color": [
+					{ "time": 0.3667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "b3_5" }
+				]
+			},
+			"b3_6": {
+				"color": [
+					{ "time": 0.3667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"b3_7": {
+				"color": [
+					{ "time": 0.3667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"b3_4": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333, "x": 0.643, "y": 0.643, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 2.333, "y": 2.333 }
+				]
+			},
+			"b1_1": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333, "x": 1.048, "y": 1.048, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 1.32, "y": 1.32, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": 2.432, "y": 2.432 }
+				]
+			},
+			"b2_3": {
+				"scale": [
+					{ "time": 0.2333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "x": 1.777, "y": 1.777, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": 1.379, "y": 1.379 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "b3_4", "offset": 11 }
+				]
+			}
+		]
+	}
+}
+}

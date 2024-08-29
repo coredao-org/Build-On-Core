@@ -1,0 +1,44 @@
+{
+  "name": "ccc-references-finder",
+  "version": "1.3.0.20210929",
+  "description": "一键查找资源的所有引用，可精确到预制体或场景中的节点、组件和属性（不包括代码中的动态引用）。",
+  "author": {
+    "name": "陈皮皮 (ifaswind)",
+    "email": "952157129@qq.com",
+    "url": "https://chenpipi.cn",
+    "wechat": "im_chenpipi",
+    "git-home": "https://gitee.com/ifaswind",
+    "official-account": "公众号「菜鸟小栈」"
+  },
+  "repository": "https://gitee.com/ifaswind/ccc-references-finder",
+  "license": "MIT",
+  "main": "src/main/index.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/i18n:ccc-references-finder.name/i18n:ccc-references-finder.find": {
+      "message": "ccc-references-finder:find-current-selection",
+      "icon": "/images/search.png",
+      "accelerator": "F6"
+    },
+    "i18n:MAIN_MENU.package.title/i18n:ccc-references-finder.name/i18n:ccc-references-finder.settings": {
+      "message": "ccc-references-finder:open-settings-panel",
+      "icon": "/images/settings.png"
+    },
+    "i18n:MAIN_MENU.package.title/i18n:ccc-references-finder.name/i18n:ccc-references-finder.check-update": {
+      "message": "ccc-references-finder:menu-check-update",
+      "icon": "/images/update.png"
+    },
+    "i18n:MAIN_MENU.package.title/i18n:ccc-references-finder.name/v1.3.0.20210929": {
+      "message": "ccc-references-finder:menu-version",
+      "icon": "/images/version.png"
+    }
+  },
+  "reload": {
+    "renderer": [],
+    "ignore": [
+      "config.json",
+      "CHANGELOG.md",
+      "README.md",
+      "README.en.md"
+    ]
+  }
+}

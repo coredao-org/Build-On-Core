@@ -1,0 +1,298 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "run_body",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1.5,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "head/head1": {
+        "comps": {},
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "value": -3
+            },
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.75,
+              "value": 3
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "head/head2": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "value": -2
+            },
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.75,
+              "value": 5
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "head": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 50
+            }
+          ]
+        }
+      },
+      "body": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "leg": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "leg_back": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "leg/leg1": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": false
+            }
+          ]
+        }
+      },
+      "leg/leg2": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": true
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": false
+            }
+          ]
+        }
+      },
+      "leg/leg3": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": true
+            },
+            {
+              "frame": 1,
+              "value": false
+            }
+          ]
+        }
+      },
+      "leg_back/leg1": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.2,
+              "value": false
+            }
+          ]
+        }
+      },
+      "leg_back/leg2": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.2,
+              "value": true
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": false
+            }
+          ]
+        }
+      },
+      "leg_back/leg3": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": true
+            },
+            {
+              "frame": 0.6166666666666667,
+              "value": false
+            }
+          ]
+        }
+      },
+      "leg_back/leg4": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.6166666666666667,
+              "value": true
+            },
+            {
+              "frame": 0.8166666666666667,
+              "value": false
+            }
+          ]
+        }
+      },
+      "leg_back/leg5": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.8166666666666667,
+              "value": true
+            }
+          ]
+        }
+      },
+      "swim_left": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "swim_right": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "leg/leg_daiji": {
+        "comps": {},
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "leg_back/leg_back_daiji": {
+        "comps": {},
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.5,
+          "value": 20
+        },
+        {
+          "frame": 1,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

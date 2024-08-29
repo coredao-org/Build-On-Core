@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- 样式 -->
+    <link rel="stylesheet" type="text/css" href="../../eazax/css/cocos-tag.css">
+    <link rel="stylesheet" type="text/css" href="../../eazax/css/cocos-class.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- 脚本 -->
+    <script type="text/javascript" src="../../../lib/vue.global.prod.js" defer></script>
+    <script type="text/javascript" src="index.js" defer></script>
+</head>
+
+<body>
+    <div id="app" v-cloak>
+        <!-- 标题 -->
+        <div class="title">{{ t('settings') }}</div>
+        <!-- 配置 -->
+        <div class="properties">
+            <!-- 选择快捷键 -->
+            <div class="property">
+                <div class="label">
+                    <span class="text">{{ t('select-key') }}</span>
+                    <span class="tooltip">{{ t('select-key-tooltip') }}</span>
+                </div>
+                <div class="content">
+                    <select v-model="selectKey">
+                        <option v-for="item in presets" :key="item.key" :value="item.key">{{ item.name }}</option>
+                    </select>
+                </div>
+            </div>
+            <!-- 自定义快捷键 -->
+            <div class="property">
+                <div class="label">
+                    <span class="text">{{ t('custom-key') }}</span>
+                    <span class="tooltip">{{ t('custom-key-tooltip') }}</span>
+                </div>
+                <div class="content">
+                    <input v-model="customKey" :placeholder="t('custom-key-placeholder')" />
+                </div>
+            </div>
+            <!-- 展示详情 -->
+            <div class="property">
+                <div class="label">
+                    <span class="text">{{ t('print-details') }}</span>
+                    <span class="tooltip">{{ t('print-details-tooltip') }}</span>
+                </div>
+                <div class="content">
+                    <input type="checkbox" v-model="printDetails" />
+                </div>
+            </div>
+            <!-- 折叠结果 -->
+            <div class="property">
+                <div class="label">
+                    <span class="text">{{ t('print-folding') }}</span>
+                    <span class="tooltip">{{ t('print-folding-tooltip') }}</span>
+                </div>
+                <div class="content">
+                    <input type="checkbox" v-model="printFolding" />
+                </div>
+            </div>
+            <!-- 自动检查更新 -->
+            <div class="property">
+                <div class="label">
+                    <span class="text">{{ t('auto-check-update') }}</span>
+                    <span class="tooltip">{{ t('auto-check-update-tooltip') }}</span>
+                </div>
+                <div class="content">
+                    <input type="checkbox" v-model="autoCheckUpdate" />
+                </div>
+            </div>
+            <!-- 快捷键参考 -->
+            <div class="tip">
+                <span>{{ t('reference') }}</span>
+                <a href="https://www.electronjs.org/docs/api/accelerator" target="_blank">{{ t('accelerator') }}</a>
+            </div>
+            <!-- Git 仓库 -->
+            <div class="tip">
+                <span>{{ t('repository') }}</span>
+                <a :href="repositoryUrl" target="_blank">{{ packageName }}</a>
+            </div>
+            <div class="line"></div>
+            <!-- 应用按钮 -->
+            <button class="apply-btn" @click="onApplyBtnClick">{{ t('apply') }}</button>
+        </div>
+    </div>
+</body>
+
+</html>

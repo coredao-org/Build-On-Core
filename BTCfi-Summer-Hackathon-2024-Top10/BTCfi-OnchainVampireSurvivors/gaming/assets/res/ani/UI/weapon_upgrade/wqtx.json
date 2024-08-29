@@ -1,0 +1,57 @@
+{
+"skeleton": {
+	"hash": "+LlCAfXZJ8Hy2WdbRHcU4U/EH+Y",
+	"spine": "3.8.99",
+	"x": -199.76,
+	"y": -0.62,
+	"width": 391,
+	"height": 357,
+	"images": "./images/",
+	"audio": "C:/Users/QianHu002/Desktop/动画/火线枪战躲猫猫/武器升级特效/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "wqtx_1", "parent": "root" }
+],
+"slots": [
+	{ "name": "wqtx_2", "bone": "wqtx_1", "attachment": "wqtx_2" },
+	{ "name": "wqtx_4", "bone": "wqtx_1" },
+	{ "name": "wqtx_3", "bone": "wqtx_1" },
+	{ "name": "wqtx_1", "bone": "wqtx_1", "attachment": "wqtx_1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"wqtx_1": {
+				"wqtx_1": { "x": 1.74, "y": 111.38, "width": 229, "height": 120 },
+				"wqtx_4": { "x": 4.24, "y": 177.88, "width": 438, "height": 261 }
+			},
+			"wqtx_2": {
+				"wqtx_2": { "x": -4.26, "y": 177.88, "width": 391, "height": 357 },
+				"wqtx_3": { "x": -0.76, "y": 149.88, "width": 528, "height": 303 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"wqtx_1": {
+				"attachment": [
+					{ "time": 0.1667, "name": "wqtx_4" },
+					{ "time": 0.3333, "name": "wqtx_1" },
+					{ "time": 0.5, "name": "wqtx_4" }
+				]
+			},
+			"wqtx_2": {
+				"attachment": [
+					{ "time": 0.1333, "name": "wqtx_3" },
+					{ "time": 0.2667, "name": "wqtx_2" },
+					{ "time": 0.4333, "name": "wqtx_3" }
+				]
+			}
+		}
+	}
+}
+}

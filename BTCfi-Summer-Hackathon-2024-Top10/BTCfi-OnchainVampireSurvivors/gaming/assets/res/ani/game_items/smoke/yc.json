@@ -1,0 +1,48 @@
+{
+"skeleton": { "hash": "NUw5y4fo87lXA66UxedPHk9LsFc", "spine": "3.8.99", "images": "./images/", "audio": "C:/Users/QianHu002/Desktop/动画/火线枪战躲猫猫/飞机/images" },
+"bones": [
+	{ "name": "root", "scaleX": -1 },
+	{ "name": "y3", "parent": "root", "x": 46.1, "y": 3.62, "scaleX": 1.2072, "scaleY": 1.2072 }
+],
+"slots": [
+	{ "name": "y1", "bone": "y3" },
+	{ "name": "y2", "bone": "y3" },
+	{ "name": "y3", "bone": "y3" },
+	{ "name": "y4", "bone": "y3" },
+	{ "name": "y6", "bone": "y3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"y1": {
+				"y1": { "x": 25.6, "y": 10.58, "width": 75, "height": 43 },
+				"y2": { "x": 35.27, "y": 14.09, "width": 80, "height": 43 },
+				"y3": { "x": 46.54, "y": 19.37, "width": 102, "height": 60 },
+				"y4": { "x": 53.97, "y": 26.29, "width": 104, "height": 63 },
+				"y6": { "x": 58.42, "y": 41.77, "width": 105, "height": 51 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation2": {
+		"slots": {
+			"y1": {
+				"attachment": [
+					{ "time": 0.2, "name": "y1" },
+					{ "time": 0.3, "name": "y2" },
+					{ "time": 0.4, "name": "y3" },
+					{ "time": 0.5, "name": "y4" },
+					{ "time": 0.6, "name": "y6" },
+					{ "time": 0.7333, "name": "y1" },
+					{ "time": 0.8, "name": "y2" },
+					{ "time": 0.8667, "name": "y3" },
+					{ "time": 0.9333, "name": "y4" },
+					{ "time": 1, "name": "y6" }
+				]
+			}
+		}
+	}
+}
+}

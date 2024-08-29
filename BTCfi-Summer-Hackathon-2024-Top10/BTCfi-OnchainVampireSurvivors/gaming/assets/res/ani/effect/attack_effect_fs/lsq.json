@@ -1,0 +1,115 @@
+{
+"skeleton": {
+	"hash": "Fxqw6n6SUmiCLDHEFwUOHM/mmz4",
+	"spine": "3.8.99",
+	"x": -3.53,
+	"y": -25.41,
+	"width": 364,
+	"height": 52,
+	"images": "./images/",
+	"audio": "C:/Users/QianHu002/Desktop/动画/火线枪战躲猫猫/镭射枪特效/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "ls_h2", "parent": "root", "x": -0.25, "y": 1.16 },
+	{ "name": "ls_b1", "parent": "root", "x": 149.49, "y": 1.5 }
+],
+"slots": [
+	{ "name": "lsg_h2", "bone": "ls_h2", "attachment": "lsg_h2" },
+	{ "name": "lsg_b2", "bone": "ls_h2", "attachment": "lsg_b2" },
+	{ "name": "lsg_h1", "bone": "ls_b1", "attachment": "lsg_h1" },
+	{ "name": "lsg_b1", "bone": "ls_b1", "attachment": "lsg_b1" },
+	{ "name": "ls_h2", "bone": "ls_h2", "attachment": "ls_h2" },
+	{ "name": "ls_b2", "bone": "ls_h2", "attachment": "ls_b2" },
+	{ "name": "ls_h1", "bone": "ls_b1", "attachment": "ls_h1" },
+	{ "name": "ls_b1", "bone": "ls_b1", "attachment": "ls_b1" }
+],
+"skins": [
+	{
+		"name": "hong",
+		"attachments": {
+			"ls_b1": {
+				"ls_b1": { "x": 103.94, "y": -0.43, "width": 215, "height": 18 }
+			},
+			"ls_b2": {
+				"ls_b2": { "x": 66.19, "y": -0.09, "width": 138, "height": 18 }
+			},
+			"ls_h1": {
+				"ls_h1": { "x": 105.44, "y": -1.43, "width": 210, "height": 52 }
+			},
+			"ls_h2": {
+				"ls_h2": { "x": 67.19, "y": -1.09, "width": 132, "height": 52 }
+			}
+		}
+	},
+	{
+		"name": "lv",
+		"attachments": {
+			"lsg_b1": {
+				"lsg_b1": { "x": 103.48, "y": 0.09, "width": 215, "height": 18 }
+			},
+			"lsg_b2": {
+				"lsg_b2": { "x": 65.72, "y": 0.44, "width": 138, "height": 18 }
+			},
+			"lsg_h1": {
+				"lsg_h1": { "x": 104.98, "y": -0.91, "width": 210, "height": 52 }
+			},
+			"lsg_h2": {
+				"lsg_h2": { "x": 66.72, "y": -0.56, "width": 132, "height": 52 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"ls_b1": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"ls_b2": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667, "color": "ffffffd0", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "color": "ffffffd0", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffd0", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "color": "ffffffd0", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5333, "color": "ffffffff" }
+				]
+			},
+			"ls_h1": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"lsg_b1": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"lsg_b2": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667, "color": "ffffffd4", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "color": "ffffffd4", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffd4", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667, "color": "ffffffd4", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5333, "color": "ffffffff" }
+				]
+			},
+			"lsg_h1": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,62 @@
+
+ym.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ym_1
+  rotate: false
+  xy: 88, 26
+  size: 55, 33
+  orig: 57, 35
+  offset: 0, 2
+  index: -1
+ym_2
+  rotate: true
+  xy: 144, 7
+  size: 17, 13
+  orig: 19, 14
+  offset: 1, 1
+  index: -1
+ym_3
+  rotate: false
+  xy: 125, 4
+  size: 17, 20
+  orig: 18, 22
+  offset: 1, 1
+  index: -1
+ym_4
+  rotate: false
+  xy: 79, 3
+  size: 26, 10
+  orig: 26, 10
+  offset: 0, 0
+  index: -1
+ym_5
+  rotate: true
+  xy: 107, 2
+  size: 22, 16
+  orig: 23, 17
+  offset: 0, 1
+  index: -1
+ym_6
+  rotate: false
+  xy: 43, 2
+  size: 34, 11
+  orig: 36, 12
+  offset: 1, 0
+  index: -1
+ym_7
+  rotate: true
+  xy: 43, 15
+  size: 44, 43
+  orig: 45, 45
+  offset: 0, 1
+  index: -1
+ym_8
+  rotate: true
+  xy: 2, 7
+  size: 52, 39
+  orig: 54, 41
+  offset: 1, 1
+  index: -1

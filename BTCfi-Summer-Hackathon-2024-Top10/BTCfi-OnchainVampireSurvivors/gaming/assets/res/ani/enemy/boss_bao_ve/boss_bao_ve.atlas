@@ -1,0 +1,167 @@
+
+boss_bao_ve.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 94
+  size: 416, 353
+  orig: 417, 354
+  offset: 0, 1
+  index: -1
+eye
+  rotate: false
+  xy: 461, 2
+  size: 146, 95
+  orig: 146, 95
+  offset: 0, 0
+  index: -1
+fx01
+  rotate: false
+  xy: 357, 284
+  size: 470, 226
+  orig: 474, 232
+  offset: 2, 3
+  index: -1
+fx02
+  rotate: false
+  xy: 829, 288
+  size: 470, 222
+  orig: 474, 228
+  offset: 2, 3
+  index: -1
+head
+  rotate: false
+  xy: 357, 99
+  size: 232, 183
+  orig: 232, 183
+  offset: 0, 0
+  index: -1
+l_arm1
+  rotate: false
+  xy: 1025, 147
+  size: 156, 139
+  orig: 156, 139
+  offset: 0, 0
+  index: -1
+l_arm2
+  rotate: false
+  xy: 1301, 356
+  size: 150, 154
+  orig: 150, 154
+  offset: 0, 0
+  index: -1
+l_ear
+  rotate: true
+  xy: 2, 2
+  size: 90, 150
+  orig: 90, 150
+  offset: 0, 0
+  index: -1
+l_foot
+  rotate: false
+  xy: 1332, 257
+  size: 95, 47
+  orig: 95, 47
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: false
+  xy: 1183, 229
+  size: 147, 57
+  orig: 147, 57
+  offset: 0, 0
+  index: -1
+l_leg1
+  rotate: true
+  xy: 1223, 6
+  size: 146, 178
+  orig: 146, 178
+  offset: 0, 0
+  index: -1
+l_leg2
+  rotate: true
+  xy: 154, 12
+  size: 80, 163
+  orig: 80, 163
+  offset: 0, 0
+  index: -1
+mouth_down
+  rotate: false
+  xy: 812, 142
+  size: 211, 140
+  orig: 211, 140
+  offset: 0, 0
+  index: -1
+mouth_up
+  rotate: false
+  xy: 591, 142
+  size: 219, 140
+  orig: 220, 140
+  offset: 0, 0
+  index: -1
+r_arm1
+  rotate: true
+  xy: 609, 8
+  size: 132, 173
+  orig: 132, 173
+  offset: 0, 0
+  index: -1
+r_arm2
+  rotate: true
+  xy: 1403, 13
+  size: 164, 149
+  orig: 164, 150
+  offset: 0, 1
+  index: -1
+r_ear
+  rotate: true
+  xy: 1183, 154
+  size: 73, 114
+  orig: 73, 114
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: false
+  xy: 1301, 306
+  size: 97, 48
+  orig: 97, 48
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 1299, 179
+  size: 151, 48
+  orig: 151, 49
+  offset: 0, 1
+  index: -1
+r_leg1
+  rotate: true
+  xy: 784, 13
+  size: 127, 167
+  orig: 127, 167
+  offset: 0, 0
+  index: -1
+r_leg2
+  rotate: true
+  xy: 953, 31
+  size: 109, 152
+  orig: 110, 152
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 1107, 10
+  size: 135, 114
+  orig: 137, 115
+  offset: 1, 0
+  index: -1
+yy
+  rotate: false
+  xy: 319, 17
+  size: 140, 75
+  orig: 140, 75
+  offset: 0, 0
+  index: -1

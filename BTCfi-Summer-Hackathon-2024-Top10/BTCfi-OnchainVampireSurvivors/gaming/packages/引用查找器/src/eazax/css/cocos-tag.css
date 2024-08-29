@@ -1,0 +1,197 @@
+/* 
+  Cocos Creator 风格标签 (橙黑)
+  版本: 20210725
+  作者: 陈皮皮 (ifaswind)
+  主页: https://gitee.com/ifaswind
+  公众号: 菜鸟小栈
+*/
+
+/* 下拉选择器 */
+select {
+  background-color: #262626;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid #171717;
+  border-radius: 100px;
+  padding: 0 8px;
+  font-size: 12px;
+  color: #bdbdbd;
+  cursor: pointer;
+  /* 替换默认的箭头 */
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA+ElEQVRYR+2VXw6CMAzGV3YUjSZ6CsI4l3gutnALH/xzEB8spokSQphbiwkv5RHafb9+awuYlR9YWd8ogDqgDqgDPx3w3h8A4FlV1UOysLz3O2stlmV5j+VHAbqu2yLijRIR8VzXdcOBaNu2KYriRDl93x+dc5e5/ChACGFjjBnIORBj8Q/A3jl3ZQFQcAiBKhgqz4GYiqdyklPAgeCKU5FJgFwnJOLZACkIqTgLgILnhOj9t9slE5N1BePunUKMv6Uajj0Fsbmfg5CIs68g5oRUfBEAJdOqBYCXdFUvBuCsZva/4B+H55zBnoKcQzkxCqAOqAOrO/AGwnWWIa30xvoAAAAASUVORK5CYII=);
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: right 3px center;
+}
+
+/* 下拉选择器:虚指 */
+select:hover {
+  border-color: #888888;
+}
+
+/* 输入框,文本区域 */
+input,
+textarea {
+  background-color: #262626;
+  box-sizing: border-box;
+  padding: 0 5px;
+  border: 1px solid #171717;
+  border-radius: 3px;
+  color: #fd942b;
+  font-size: 12px;
+  outline: none;
+}
+
+/* 文本区域 */
+textarea {
+  min-height: 40px;
+  resize: vertical;
+}
+
+/* 输入框,文本区域::占位符 */
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  font-style: normal;
+}
+
+/* 数字输入框 */
+input[type='number'] {
+  width: 50px !important;
+}
+
+/* 数字输入框::增减按钮 */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  /* appearance: none; */
+  /* -webkit-appearance: none; */
+  /* margin: 0; */
+  margin-right: -2px;
+}
+
+/* 复选框 */
+input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  background-image: none;
+  background-color: #262626;
+  border: 1px solid #171717;
+  border-radius: 3px;
+  padding-left: 0;
+  position: relative !important;
+  flex: 0 !important;
+  margin: 0;
+  color: #fd942b;
+  outline: none;
+  cursor: pointer;
+}
+
+/* 复选框:勾选 */
+input[type='checkbox']:checked::after {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  content: '';
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABKUlEQVRYR+2W2w2DMAxF41ZdBnWzqjMQZkBdjWUqkiqUgCHOO4Ef+EECwTlO7AvATj7gZD67BA5bgW/fcLXdj/cwnfVxiMD4aVomYQILKTssUV0Aw3XVWKKqgFr2G0BLTZqWqCbggq8NIHkVgSD43A/FBag9J8MOJL+/hq6oQGjlbIYrMUNAVSAEg/28+iI7BW4IuObVJZAK3wj45tUmkANfBFyNs08uLBIKd70DgroWNY0WKAGfVmBUHwlLWuFqcRWl4OsWREioh2zxuukTYtWoPlrGcOyfnIEkc9s3gsb9QLg5hiUkIuB0EOVIRMJJAXUxaTsS4FaBaIlEuFMgWCID7hXwSmTCgwSsEgXgwQJ/CZSYheBRAlpCEP/20UGFHij6R5Qicgn8AIQ23JRIyuB1AAAAAElFTkSuQmCC);
+  background-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 输入框:虚指 */
+input:hover {
+  border-color: #888888;
+}
+
+/* 滑动条 */
+input[type='range'] {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 4px !important;
+  background-color: #262626;
+  border: 1px solid #171717;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* 滑动条:虚指|聚焦 */
+input[type='range']:hover,
+input[type='range']:focus,
+*:focus-within input[type='range'] {
+  border-color: #171717 !important;
+}
+
+/* 滑动条::把手 */
+input[type='range']::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  top: 2px;
+  background: #333;
+  box-sizing: border-box;
+  border: 2px solid #949494;
+  box-shadow: 0 1px 3px 1px #000 inset, 0 1px 1px 0 rgba(0, 0, 0, 0.9);
+  border-radius: 100%;
+}
+
+/* 滑动条::把手:虚指 */
+input[type='range']::-webkit-slider-thumb:hover {
+  border-color: #bcbcbc;
+  cursor: pointer;
+}
+
+/* 滑动条::把手:激活 */
+input[type='range']::-webkit-slider-thumb:active,
+*:focus-within > input[type='range']::-webkit-slider-thumb {
+  color: #bdbdbd;
+  border-color: #fd942b !important;
+  cursor: ew-resize;
+}
+
+/* 取色器 */
+input[type='color'] {
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  border-radius: 1px;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* 取色器::色板容器 */
+input[type='color']::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+/* 取色器::色板 */
+input[type='color']::-webkit-color-swatch {
+  border: none;
+}
+
+/* 超链接 */
+a {
+  color: #fd942b;
+  text-decoration: none;
+}
+
+/* 超链接:虚指 */
+a:hover {
+  text-decoration: underline;
+}
+
+/* 分割线 */
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: #666;
+  border: none;
+  margin: 10px 0 !important;
+}

@@ -1,0 +1,109 @@
+{
+"skeleton": {
+	"hash": "+Er0udFy9mhMAh1LHIg8AHhs7U4",
+	"spine": "3.8.99",
+	"x": -47,
+	"y": -50.52,
+	"width": 99,
+	"height": 94,
+	"images": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\激光击中特效\\images",
+	"audio": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\激光击中特效\\images"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "jg_s2", "bone": "root" },
+	{ "name": "jg_s", "bone": "root", "attachment": "jg_s" },
+	{ "name": "jg_w2", "bone": "root" },
+	{ "name": "jg_w", "bone": "root", "attachment": "jg_w" },
+	{ "name": "jg_z2", "bone": "root" },
+	{ "name": "jg_z", "bone": "root", "attachment": "jg_z" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"jg_s": {
+				"jg_s": { "x": 2.5, "y": -2.02, "width": 49, "height": 61 },
+				"jg_s2": { "x": 1.5, "y": -2.02, "width": 61, "height": 49 }
+			},
+			"jg_w": {
+				"jg_w": { "x": 2.5, "y": -3.52, "width": 99, "height": 94 },
+				"jg_w2": { "x": 1.5, "y": -3.52, "width": 99, "height": 94 }
+			},
+			"jg_z": {
+				"jg_z": { "x": 1, "y": -1.52, "width": 72, "height": 76 },
+				"jg_z2": { "x": -1, "y": -1.52, "width": 72, "height": 76 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"jg_s": {
+				"attachment": [
+					{ "time": 0.4333, "name": "jg_s2" },
+					{ "time": 0.5333, "name": "jg_s" },
+					{ "time": 0.6333, "name": "jg_s2" },
+					{ "time": 0.7333, "name": "jg_s" }
+				]
+			},
+			"jg_w": {
+				"attachment": [
+					{ "time": 0.4333, "name": "jg_w2" },
+					{ "time": 0.5333, "name": "jg_w" },
+					{ "time": 0.6333, "name": "jg_w2" },
+					{ "time": 0.7333, "name": "jg_w" }
+				]
+			},
+			"jg_z": {
+				"attachment": [
+					{ "time": 0.4333, "name": "jg_z2" },
+					{ "time": 0.5333, "name": "jg_z" },
+					{ "time": 0.6333, "name": "jg_z2" },
+					{ "time": 0.7333, "name": "jg_z" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{ "x": 0.007, "y": 0.007, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "x": 1.305, "y": 1.305, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"jg_s": {
+				"attachment": [
+					{ "time": 0.1, "name": "jg_s2" },
+					{ "time": 0.2, "name": "jg_s" },
+					{ "time": 0.3, "name": "jg_s2" },
+					{ "time": 0.4, "name": "jg_s" }
+				]
+			},
+			"jg_w": {
+				"attachment": [
+					{ "time": 0.1, "name": "jg_w2" },
+					{ "time": 0.2, "name": "jg_w" },
+					{ "time": 0.3, "name": "jg_w2" },
+					{ "time": 0.4, "name": "jg_w" }
+				]
+			},
+			"jg_z": {
+				"attachment": [
+					{ "time": 0.1, "name": "jg_z2" },
+					{ "time": 0.2, "name": "jg_z" },
+					{ "time": 0.3, "name": "jg_z2" },
+					{ "time": 0.4, "name": "jg_z" }
+				]
+			}
+		}
+	}
+}
+}

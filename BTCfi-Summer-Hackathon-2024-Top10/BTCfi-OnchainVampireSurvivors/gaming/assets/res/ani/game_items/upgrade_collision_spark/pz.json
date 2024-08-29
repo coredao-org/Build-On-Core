@@ -1,0 +1,137 @@
+{
+"skeleton": {
+	"hash": "YHQzKU6ETV3pVpq9HqisU3QPYm0",
+	"spine": "3.8.99",
+	"x": -63.16,
+	"y": -85.21,
+	"width": 133,
+	"height": 165,
+	"images": "./images/",
+	"audio": "C:/Users/QianHu002/Desktop/动画/火线枪战躲猫猫/碰撞火花/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "yy_1", "parent": "root", "x": 7.64, "y": 3.1, "skin": true },
+	{ "name": "yp_1", "parent": "root", "x": 7.3, "y": 1.9, "skin": true },
+	{ "name": "yr_1", "parent": "root", "x": 9.53, "y": 2.37, "skin": true }
+],
+"slots": [
+	{ "name": "yr_1", "bone": "yr_1", "attachment": "yr_1" },
+	{ "name": "yr_2", "bone": "root" },
+	{ "name": "yr_3", "bone": "root" },
+	{ "name": "yr_4", "bone": "root" },
+	{ "name": "yr_5", "bone": "root" },
+	{ "name": "yp_1", "bone": "yp_1", "attachment": "yp_1" },
+	{ "name": "yp_2", "bone": "root" },
+	{ "name": "yp_3", "bone": "root" },
+	{ "name": "yp_4", "bone": "root" },
+	{ "name": "yp_5", "bone": "root" },
+	{ "name": "yy_1", "bone": "yy_1", "attachment": "yy_1" },
+	{ "name": "yy_2", "bone": "root" },
+	{ "name": "yy_3", "bone": "root" },
+	{ "name": "yy_4", "bone": "root" },
+	{ "name": "yy_5", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"yp_1": {
+				"yp_1": { "x": -3.96, "y": -5.61, "width": 133, "height": 165 },
+				"yp_2": { "x": -5.96, "y": 1.39, "width": 207, "height": 197 },
+				"yp_3": { "x": -7.46, "y": -7.61, "width": 290, "height": 241 },
+				"yp_4": { "x": -12.96, "y": -12.11, "width": 267, "height": 270 },
+				"yp_5": { "x": -7.96, "y": -5.61, "width": 207, "height": 219 }
+			},
+			"yr_1": {
+				"yr_1": { "x": -6.19, "y": -5.09, "width": 133, "height": 165 },
+				"yr_2": { "x": -8.19, "y": 1.91, "width": 207, "height": 197 },
+				"yr_3": { "x": -9.69, "y": -7.09, "width": 290, "height": 241 },
+				"yr_4": { "x": -15.19, "y": -11.59, "width": 267, "height": 270 },
+				"yr_5": { "x": -10.19, "y": -5.09, "width": 207, "height": 219 }
+			},
+			"yy_1": {
+				"yy_1": { "x": -4.3, "y": -6.82, "width": 133, "height": 165 },
+				"yy_2": { "x": -6.3, "y": 0.18, "width": 207, "height": 197 },
+				"yy_3": { "x": -7.8, "y": -8.82, "width": 290, "height": 241 },
+				"yy_4": { "x": -13.3, "y": -13.32, "width": 267, "height": 270 },
+				"yy_5": { "x": -8.3, "y": -6.82, "width": 207, "height": 219 }
+			}
+		}
+	},
+	{
+		"name": "p",
+		"bones": [ "yp_1" ]
+	},
+	{
+		"name": "r",
+		"bones": [ "yr_1" ]
+	},
+	{
+		"name": "y",
+		"bones": [ "yy_1" ]
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"yp_1": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "yp_2" },
+					{ "time": 0.1333, "name": "yp_3" },
+					{ "time": 0.2, "name": "yp_4" },
+					{ "time": 0.2667, "name": "yp_5" }
+				]
+			},
+			"yr_1": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "yr_2" },
+					{ "time": 0.1333, "name": "yr_3" },
+					{ "time": 0.2, "name": "yr_4" },
+					{ "time": 0.2667, "name": "yr_5" }
+				]
+			},
+			"yy_1": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "yy_2" },
+					{ "time": 0.1333, "name": "yy_3" },
+					{ "time": 0.2, "name": "yy_4" },
+					{ "time": 0.2667, "name": "yy_5" }
+				]
+			}
+		},
+		"bones": {
+			"yr_1": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"yy_1": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"yp_1": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.2, "y": 1.2 }
+				]
+			}
+		}
+	}
+}
+}

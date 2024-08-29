@@ -1,0 +1,73 @@
+{
+"skeleton": {
+	"hash": "q7vKjWwI95RpeeUFwp3VXFgIL+Y",
+	"spine": "3.8.99",
+	"x": -62.97,
+	"y": -47.24,
+	"width": 127,
+	"height": 96,
+	"images": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\近战武器击中特效\\images",
+	"audio": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\近战武器击中特效\\images"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "j3", "bone": "root", "attachment": "j3" },
+	{ "name": "j2", "bone": "root", "attachment": "j2" },
+	{ "name": "j1", "bone": "root", "attachment": "j1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"j1": {
+				"j1": { "x": 0.53, "y": 0.76, "width": 127, "height": 96 }
+			},
+			"j2": {
+				"j2": { "x": 1.03, "y": 0.76, "width": 84, "height": 62 }
+			},
+			"j3": {
+				"j3": { "x": 1.03, "y": 0.26, "width": 64, "height": 47 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"j1": {
+				"color": [
+					{ "time": 0.1, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"j2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			},
+			"j3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{ "x": 0.004, "y": 0.004, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "x": 1.44, "y": 1.44, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2 }
+				]
+			}
+		}
+	}
+}
+}

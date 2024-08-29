@@ -1,0 +1,134 @@
+{
+"skeleton": {
+	"hash": "3w3rkg+PG7PJ8+Y4BceAyF6826w",
+	"spine": "3.8.99",
+	"x": -61.41,
+	"y": -11.07,
+	"width": 114,
+	"height": 163,
+	"images": "./images/",
+	"audio": "C:/Users/QianHu002/Desktop/动画/火线枪战躲猫猫/怪/墓碑/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "mb_bei", "parent": "root" },
+	{ "name": "mb_bei3", "parent": "mb_bei", "x": -0.92, "y": 15.85 },
+	{ "name": "mb_c", "parent": "mb_bei3", "x": -12.04, "y": 59.38 },
+	{ "name": "mb_y1", "parent": "mb_bei", "x": -5.51, "y": 28.75 }
+],
+"slots": [
+	{ "name": "mb_bei", "bone": "mb_bei3", "attachment": "mb_bei" },
+	{ "name": "mb_c", "bone": "mb_c", "attachment": "mb_c" },
+	{ "name": "mb_yj", "bone": "mb_c" },
+	{ "name": "mb_y1", "bone": "mb_y1" },
+	{ "name": "mb_y2", "bone": "mb_bei" },
+	{ "name": "mb_y3", "bone": "mb_bei" },
+	{ "name": "mb_y4", "bone": "mb_bei" },
+	{ "name": "mb_y5", "bone": "mb_bei" },
+	{ "name": "mb_y6", "bone": "mb_bei" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"mb_bei": {
+				"mb_bei": { "x": -3.49, "y": 54.58, "width": 114, "height": 163 }
+			},
+			"mb_c": {
+				"mb_c": { "x": 9.05, "y": 8.7, "width": 57, "height": 84 },
+				"mb_yj": { "x": 2.05, "y": 3.7, "width": 79, "height": 108 }
+			},
+			"mb_y1": {
+				"mb_y1": { "x": 1.61, "y": 70.68, "width": 191, "height": 237 },
+				"mb_y2": { "x": -1.39, "y": 77.18, "width": 223, "height": 254 },
+				"mb_y3": { "x": 2.11, "y": 81.18, "width": 246, "height": 268 },
+				"mb_y4": { "x": 1.61, "y": 75.68, "width": 255, "height": 269 },
+				"mb_y5": { "x": -3.39, "y": 81.68, "width": 265, "height": 289 },
+				"mb_y6": { "x": -0.39, "y": 82.18, "width": 263, "height": 282 }
+			}
+		}
+	}
+],
+"animations": {
+	"daiji": {},
+	"doudong": {
+		"bones": {
+			"mb_bei3": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "x": 1.059, "y": 1.059, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2 }
+				]
+			}
+		}
+	},
+	"zheng": {
+		"slots": {
+			"mb_c": {
+				"attachment": [
+					{ "name": "mb_yj" }
+				]
+			},
+			"mb_y1": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "mb_y1" },
+					{ "time": 0.1667, "name": "mb_y2" },
+					{ "time": 0.2667, "name": "mb_y3" },
+					{ "time": 0.3667, "name": "mb_y4" },
+					{ "time": 0.4667, "name": "mb_y5" },
+					{ "time": 0.5667, "name": "mb_y6" }
+				]
+			}
+		},
+		"bones": {
+			"mb_bei3": {
+				"scale": [
+					{ "x": 1.059, "y": 1.059, "curve": "stepped" },
+					{ "time": 0.5667, "x": 1.059, "y": 1.059, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667 }
+				]
+			},
+			"mb_c": {
+				"scale": [
+					{ "x": 0.018, "y": 0.018, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.127, "y": 1.127, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"zheng2": {
+		"slots": {
+			"mb_c": {
+				"attachment": [
+					{ "name": "mb_yj" }
+				]
+			},
+			"mb_y1": {
+				"attachment": [
+					{ "name": "mb_y2" },
+					{ "time": 0.1667, "name": "mb_y3" },
+					{ "time": 0.3333, "name": "mb_y4" },
+					{ "time": 0.5, "name": "mb_y5" },
+					{ "time": 0.6667, "name": "mb_y6" }
+				]
+			}
+		},
+		"bones": {
+			"mb_c": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.045, "y": 1.045, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	}
+}
+}

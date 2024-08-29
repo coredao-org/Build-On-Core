@@ -1,0 +1,103 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "atk_dao",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3333333333333333,
+  "sample": 60,
+  "speed": 2,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "xhr_animation038": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 90
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 400
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -62.596,
+                -46.371,
+                0
+              ]
+            },
+            {
+              "frame": 0.016666666666666666,
+              "value": [
+                -50.924,
+                -60.183,
+                0
+              ]
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": [
+                -41.812,
+                -65.394,
+                0
+              ]
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": [
+                -14.151,
+                -70.005,
+                0
+              ]
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": [
+                28.06,
+                -32.947,
+                0
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                -9.487,
+                8.974,
+                0
+              ]
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": [
+                -62.596,
+                -11.355,
+                0
+              ]
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "xhr_animation029": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}
