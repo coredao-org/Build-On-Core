@@ -1,0 +1,165 @@
+{
+"skeleton": {
+	"hash": "lGtdan4X5dWny4T2NLUYmgdPycY",
+	"spine": "3.8.99",
+	"x": -129.24,
+	"y": -23.89,
+	"width": 260,
+	"height": 713,
+	"images": "./images/",
+	"audio": "C:/Users/QianHu002/Desktop/动画/火线枪战躲猫猫/雷电/images"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "l4", "bone": "root", "attachment": "l4" },
+	{ "name": "l3", "bone": "root", "attachment": "l3" },
+	{ "name": "l2", "bone": "root", "attachment": "l2" },
+	{ "name": "l1", "bone": "root", "attachment": "l1" },
+	{ "name": "y4", "bone": "root", "attachment": "y4" },
+	{ "name": "y3", "bone": "root", "attachment": "y3" },
+	{ "name": "y2", "bone": "root", "attachment": "y2" },
+	{ "name": "y1", "bone": "root", "attachment": "y1" }
+],
+"skins": [
+	{
+		"name": "b",
+		"attachments": {
+			"l1": {
+				"l1": { "x": 11.76, "y": 320.61, "width": 212, "height": 685 }
+			},
+			"l2": {
+				"l2": { "x": -1.24, "y": 335.11, "width": 240, "height": 664 }
+			},
+			"l3": {
+				"l3": { "x": -1.24, "y": 331.11, "width": 214, "height": 674 }
+			},
+			"l4": {
+				"l4": { "x": 2.76, "y": 330.61, "width": 210, "height": 657 }
+			}
+		}
+	},
+	{
+		"name": "y",
+		"attachments": {
+			"y1": {
+				"y1": { "x": 14.76, "y": 330.11, "width": 230, "height": 708 }
+			},
+			"y2": {
+				"y2": { "x": 0.76, "y": 345.11, "width": 260, "height": 686 }
+			},
+			"y3": {
+				"y3": { "x": 0.76, "y": 341.11, "width": 232, "height": 696 }
+			},
+			"y4": {
+				"y4": { "x": 5.76, "y": 340.61, "width": 228, "height": 679 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"l1": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"l2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": null },
+					{ "time": 0.2667, "name": "l2" },
+					{ "time": 0.4333, "name": null }
+				]
+			},
+			"l3": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": null },
+					{ "time": 0.4333, "name": "l3" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"l4": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": null },
+					{ "time": 0.6, "name": "l4" }
+				]
+			},
+			"y1": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2667, "name": null }
+				]
+			},
+			"y2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": null },
+					{ "time": 0.2667, "name": "y2" },
+					{ "time": 0.4333, "name": null }
+				]
+			},
+			"y3": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": null },
+					{ "time": 0.4333, "name": "y3" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"y4": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": null },
+					{ "time": 0.6, "name": "y4" }
+				]
+			}
+		}
+	}
+}
+}

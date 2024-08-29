@@ -1,0 +1,76 @@
+
+duqi.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dqbz_1
+  rotate: false
+  xy: 764, 53
+  size: 145, 177
+  orig: 149, 181
+  offset: 2, 2
+  index: -1
+dqbz_2
+  rotate: false
+  xy: 2, 2
+  size: 332, 228
+  orig: 334, 231
+  offset: 1, 2
+  index: -1
+dqbz_3
+  rotate: false
+  xy: 1614, 324
+  size: 380, 391
+  orig: 385, 395
+  offset: 2, 2
+  index: -1
+dqbz_4
+  rotate: true
+  xy: 588, 232
+  size: 483, 552
+  orig: 489, 556
+  offset: 3, 2
+  index: -1
+dqbz_5
+  rotate: false
+  xy: 1142, 229
+  size: 470, 486
+  orig: 474, 491
+  offset: 2, 3
+  index: -1
+dqbz_6
+  rotate: false
+  xy: 2, 232
+  size: 584, 483
+  orig: 589, 487
+  offset: 2, 2
+  index: -1
+dqbz_7
+  rotate: true
+  xy: 1614, 4
+  size: 318, 316
+  orig: 325, 324
+  offset: 3, 4
+  index: -1
+dqrs_1
+  rotate: true
+  xy: 1932, 201
+  size: 121, 109
+  orig: 124, 112
+  offset: 2, 1
+  index: -1
+dqrs_2
+  rotate: false
+  xy: 575, 57
+  size: 187, 173
+  orig: 190, 176
+  offset: 2, 1
+  index: -1
+dqrs_3
+  rotate: false
+  xy: 336, 23
+  size: 237, 207
+  orig: 239, 210
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,41 @@
+{
+  "ver": "1.1.3",
+  "uuid": "9045719c-5479-427d-b619-ac2bb8f29137",
+  "importer": "folder",
+  "isBundle": true,
+  "bundleName": "resources",
+  "priority": 8,
+  "compressionType": {
+    "wechatgame": "default",
+    "qgame": "default",
+    "quickgame": "default",
+    "huawei": "default",
+    "bytedance": "default",
+    "xiaomi": "default"
+  },
+  "optimizeHotUpdate": {
+    "wechatgame": false,
+    "qgame": false,
+    "quickgame": false,
+    "huawei": false,
+    "bytedance": false,
+    "xiaomi": false
+  },
+  "inlineSpriteFrames": {
+    "wechatgame": true,
+    "qgame": true,
+    "quickgame": true,
+    "huawei": true,
+    "bytedance": true,
+    "xiaomi": true
+  },
+  "isRemoteBundle": {
+    "wechatgame": true,
+    "qgame": true,
+    "quickgame": true,
+    "huawei": true,
+    "bytedance": true,
+    "xiaomi": true
+  },
+  "subMetas": {}
+}

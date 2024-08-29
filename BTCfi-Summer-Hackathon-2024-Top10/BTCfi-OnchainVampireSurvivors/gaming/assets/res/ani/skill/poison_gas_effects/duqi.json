@@ -1,0 +1,121 @@
+{
+"skeleton": {
+	"hash": "vx/CNrVn1Tc7LkqmCS6mPabq6Is",
+	"spine": "3.8.99",
+	"x": -225.03,
+	"y": 90.98,
+	"width": 599,
+	"height": 181,
+	"images": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\怪\\毒气效果\\images",
+	"audio": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\怪\\毒气效果\\images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "dqbz_1", "parent": "root", "x": 294.16, "y": 182.12 },
+	{ "name": "dqrs_1", "parent": "root", "x": -113.2, "y": 115.25 }
+],
+"slots": [
+	{ "name": "dqbz_1", "bone": "dqbz_1", "attachment": "dqbz_1" },
+	{ "name": "dqbz_2", "bone": "root" },
+	{ "name": "dqbz_3", "bone": "root" },
+	{ "name": "dqbz_4", "bone": "root" },
+	{ "name": "dqbz_5", "bone": "root" },
+	{ "name": "dqbz_6", "bone": "root" },
+	{ "name": "dqbz_7", "bone": "root" },
+	{ "name": "dqrs_1", "bone": "dqrs_1", "attachment": "dqrs_1" },
+	{ "name": "dqrs_2", "bone": "dqrs_1" },
+	{ "name": "dqrs_3", "bone": "dqrs_1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"dqbz_1": {
+				"dqbz_1": { "x": 5.31, "y": -0.65, "width": 149, "height": 181 },
+				"dqbz_2": { "x": 57.81, "y": 7.35, "width": 334, "height": 231 },
+				"dqbz_3": { "x": 57.31, "y": 16.35, "width": 385, "height": 395 },
+				"dqbz_4": { "x": 37.31, "y": 32.85, "width": 489, "height": 556 },
+				"dqbz_5": { "x": 74.81, "y": 6.35, "width": 474, "height": 491 },
+				"dqbz_6": { "x": 68.31, "y": 24.35, "width": 589, "height": 487 },
+				"dqbz_7": { "x": 40.31, "y": -6.15, "width": 325, "height": 324 }
+			},
+			"dqrs_1": {
+				"dqrs_1": { "x": -49.83, "y": 43.73, "width": 124, "height": 112 },
+				"dqrs_2": { "x": -82.83, "y": 76.73, "width": 190, "height": 176 },
+				"dqrs_3": { "x": -96.33, "y": 83.73, "width": 239, "height": 210 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"dqbz_1": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2333, "name": "dqbz_2" },
+					{ "time": 0.3333, "name": "dqbz_3" },
+					{ "time": 0.4333, "name": "dqbz_4" },
+					{ "time": 0.5333, "name": "dqbz_5" },
+					{ "time": 0.6333, "name": "dqbz_6" },
+					{ "time": 0.7333, "name": "dqbz_7" }
+				]
+			},
+			"dqrs_1": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"dqbz_1": {
+				"translate": [
+					{ "x": -294.16, "y": -182.12 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9, "x": 1.465, "y": 1.465 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"dqbz_1": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"dqrs_1": {
+				"attachment": [
+					{ "time": 0.0667, "name": "dqrs_2" },
+					{ "time": 0.1333, "name": "dqrs_3" },
+					{ "time": 0.2, "name": "dqrs_2" },
+					{ "time": 0.2667, "name": "dqrs_3" },
+					{ "time": 0.3333, "name": "dqrs_2" },
+					{ "time": 0.4, "name": "dqrs_3" },
+					{ "time": 0.4667, "name": "dqrs_2" },
+					{ "time": 0.5333, "name": "dqrs_1" }
+				]
+			}
+		},
+		"bones": {
+			"dqrs_1": {
+				"translate": [
+					{ "x": 113.2, "y": -115.25 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "angle": 75.63 }
+				]
+			}
+		}
+	}
+}
+}

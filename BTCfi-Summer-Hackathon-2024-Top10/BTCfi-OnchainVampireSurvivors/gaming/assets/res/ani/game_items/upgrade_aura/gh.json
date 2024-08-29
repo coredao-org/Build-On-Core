@@ -1,0 +1,232 @@
+{
+"skeleton": {
+	"hash": "bXNg8GvxLu5mNOtUOSRwhK+1c0M",
+	"spine": "3.8.99",
+	"x": -119.12,
+	"y": -10,
+	"width": 227,
+	"height": 103.07,
+	"images": "./images/",
+	"audio": "C:/Users/QianHu002/Desktop/动画/火线枪战躲猫猫/升级光环/images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "hp_d", "parent": "root", "x": -2.66, "y": 42.42, "scaleY": 0.4295, "color": "abe323ff" },
+	{
+		"name": "hp_nq",
+		"parent": "hp_d",
+		"length": 81.41,
+		"rotation": 1.01,
+		"x": 0.33,
+		"y": 1.26,
+		"color": "db9affff"
+	},
+	{
+		"name": "hp_wq",
+		"parent": "hp_d",
+		"length": 100.43,
+		"rotation": -177.92,
+		"x": 0.21,
+		"y": -0.2,
+		"color": "6a117eff"
+	},
+	{
+		"name": "hp_d3",
+		"parent": "hp_d",
+		"length": 76.92,
+		"rotation": -89.25,
+		"x": -0.72,
+		"y": -3.66,
+		"color": "d800ffff"
+	}
+],
+"slots": [
+	{ "name": "hr_di", "bone": "hp_d", "attachment": "hr_di" },
+	{ "name": "hr_d", "bone": "hp_d3", "attachment": "hr_d" },
+	{ "name": "hr_wq", "bone": "hp_wq", "attachment": "hr_wq" },
+	{ "name": "hr_nq", "bone": "hp_nq", "attachment": "hr_nq" },
+	{ "name": "hy_di", "bone": "hp_d", "attachment": "hy_di" },
+	{ "name": "hy_d", "bone": "hp_d3", "attachment": "hy_d" },
+	{ "name": "hy_wq", "bone": "hp_wq", "attachment": "hy_wq" },
+	{ "name": "hy_nq", "bone": "hp_nq", "attachment": "hy_nq" },
+	{ "name": "hp_di", "bone": "hp_d", "attachment": "hp_di" },
+	{ "name": "hp_d", "bone": "hp_d3", "attachment": "hp_d" },
+	{ "name": "hp_wq", "bone": "hp_wq", "attachment": "hp_wq" },
+	{ "name": "hp_nq", "bone": "hp_nq", "attachment": "hp_nq" },
+	{ "name": "ck", "bone": "root" }
+],
+"transform": [
+	{
+		"name": "d",
+		"order": 2,
+		"bones": [ "hp_d3" ],
+		"target": "hp_d",
+		"rotation": -89.25,
+		"x": -0.72,
+		"y": -3.66,
+		"rotateMix": 0,
+		"translateMix": 0,
+		"scaleMix": 0,
+		"shearMix": 0
+	},
+	{
+		"name": "n",
+		"bones": [ "hp_nq" ],
+		"target": "hp_d",
+		"rotation": 1.01,
+		"x": 0.96,
+		"y": 0.67,
+		"rotateMix": 0,
+		"translateMix": 0,
+		"scaleMix": 0,
+		"shearMix": 0
+	},
+	{
+		"name": "w",
+		"order": 1,
+		"bones": [ "hp_wq" ],
+		"target": "hp_d",
+		"rotation": -177.92,
+		"x": 0.04,
+		"y": 0.95,
+		"rotateMix": 0,
+		"translateMix": 0,
+		"scaleMix": 0,
+		"shearMix": 0
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ck": {
+				"ck": { "x": -7.18, "y": 34.56, "width": 197, "height": 94 }
+			}
+		}
+	},
+	{
+		"name": "p",
+		"attachments": {
+			"hp_d": {
+				"hp_d": { "x": -1.62, "y": -2.22, "rotation": 89.25, "width": 227, "height": 240 }
+			},
+			"hp_di": {
+				"hp_di": { "x": -0.96, "y": -0.07, "width": 195, "height": 196 }
+			},
+			"hp_nq": {
+				"hp_nq": { "x": 0.18, "rotation": -1.01, "width": 174, "height": 174 }
+			},
+			"hp_wq": {
+				"hp_wq": { "x": -0.33, "y": -0.12, "rotation": 177.92, "width": 214, "height": 214 }
+			}
+		}
+	},
+	{
+		"name": "r",
+		"attachments": {
+			"hr_d": {
+				"hr_d": { "x": -2.12, "y": -2.21, "rotation": 88.25, "width": 227, "height": 239 }
+			},
+			"hr_di": {
+				"hr_di": { "x": -0.96, "y": -0.07, "width": 195, "height": 196 }
+			},
+			"hr_nq": {
+				"hr_nq": { "x": -0.83, "y": -1.81, "rotation": -0.43, "width": 174, "height": 173 }
+			},
+			"hr_wq": {
+				"hr_wq": { "x": 0.15, "y": -0.64, "rotation": 178.38, "width": 213, "height": 213 }
+			}
+		}
+	},
+	{
+		"name": "y",
+		"attachments": {
+			"hy_d": {
+				"hy_d": { "x": -2.62, "y": -2.2, "rotation": 88.25, "width": 227, "height": 240 }
+			},
+			"hy_di": {
+				"hy_di": { "x": -0.96, "y": -0.07, "width": 195, "height": 196 }
+			},
+			"hy_nq": {
+				"hy_nq": { "x": -0.82, "y": -1.31, "rotation": -0.43, "width": 174, "height": 174 }
+			},
+			"hy_wq": {
+				"hy_wq": { "x": 1.16, "y": -0.17, "rotation": -176.47, "width": 213, "height": 214 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"hp_d": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.6667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "ffffff00" }
+				]
+			},
+			"hr_d": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.6667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "ffffff00" }
+				]
+			},
+			"hy_d": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.6667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"hp_nq": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "angle": 88.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": 178.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "angle": -91.01, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"hp_wq": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "angle": 87.92, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": 177.92, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "angle": -92.08, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"hp_d3": {
+				"scale": [
+					{ "x": 0.007, "y": 0.007, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.071, "y": 1.071, "curve": 0.329, "c2": 0.32, "c3": 0.758 },
+					{ "time": 2 }
+				]
+			},
+			"hp_d": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 1.089, "y": 1.089, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}

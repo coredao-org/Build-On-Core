@@ -1,0 +1,19 @@
+{
+  "package": "com.yzxx.hxqzdmm.vivominigame",
+  "name": "火线枪战躲猫猫",
+  "icon": "D:\\Git\\hxqzdmm\\icon.png",
+  "versionName": "1.0.2",
+  "versionCode": "102",
+  "minPlatformVersion": "1061",
+  "deviceOrientation": "landscape",
+  "logLevel": "log",
+  "npmPath": "",
+  "tinyPackageServer": "http://xcx.youletd.com/file/vivo/hxqzdmm/v102",
+  "useDebugKey": false,
+  "privatePath": "D:\\workspace\\OV_KEY\\private.pem",
+  "certificatePath": "D:\\workspace\\OV_KEY\\certificate.pem",
+  "disabledMode": "",
+  "showNpmPath": false,
+  "packFirstScreenRes": true,
+  "separateEngineMode": false
+}

@@ -1,0 +1,53 @@
+{
+"skeleton": {
+	"hash": "+vp5eShnr7xUicE/Fov9sCzTu5M",
+	"spine": "3.8.99",
+	"x": -103.41,
+	"y": -0.21,
+	"width": 204,
+	"height": 227,
+	"images": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\boss光\\images",
+	"audio": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\boss光\\images"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "fx01", "bone": "root", "attachment": "fx01" },
+	{ "name": "fx02", "bone": "root" },
+	{ "name": "fx03", "bone": "root" },
+	{ "name": "fx04", "bone": "root" },
+	{ "name": "fx05", "bone": "root" },
+	{ "name": "fx06", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fx01": {
+				"fx01": { "x": -1.41, "y": 113.29, "width": 204, "height": 227 },
+				"fx02": { "x": -1.41, "y": 115.04, "width": 204, "height": 230 },
+				"fx03": { "x": -1.41, "y": 106.74, "width": 204, "height": 215 },
+				"fx04": { "x": -1.41, "y": 110.95, "width": 204, "height": 223 },
+				"fx05": { "x": -1.41, "y": 113.79, "width": 204, "height": 230 },
+				"fx06": { "x": -1.41, "y": 109.71, "width": 204, "height": 221 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"fx01": {
+				"attachment": [
+					{ "time": 0.1667, "name": "fx02" },
+					{ "time": 0.3333, "name": "fx03" },
+					{ "time": 0.5, "name": "fx04" },
+					{ "time": 0.6667, "name": "fx05" },
+					{ "time": 0.8333, "name": "fx06" }
+				]
+			}
+		}
+	}
+}
+}

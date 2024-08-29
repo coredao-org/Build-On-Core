@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.Material",
+  "_name": "kuang_shield",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "064ae782-abda-4f01-b374-fa8eaed467c1"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      },
+      "props": {
+        "width": 0.01,
+        "height": 0.2
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+
+djtx.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hq1_d1
+  rotate: false
+  xy: 10, 4
+  size: 4, 4
+  orig: 5, 6
+  offset: 0, 1
+  index: -1
+hq1_d2
+  rotate: false
+  xy: 16, 4
+  size: 4, 4
+  orig: 6, 6
+  offset: 1, 1
+  index: -1
+hq1_d3
+  rotate: false
+  xy: 22, 4
+  size: 4, 4
+  orig: 5, 5
+  offset: 1, 0
+  index: -1
+hq1_d4
+  rotate: false
+  xy: 2, 2
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+hq1_d5
+  rotate: false
+  xy: 28, 4
+  size: 4, 4
+  orig: 6, 6
+  offset: 1, 1
+  index: -1
+hq1_d6
+  rotate: false
+  xy: 34, 4
+  size: 4, 4
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+hq1_gq
+  rotate: false
+  xy: 2, 10
+  size: 160, 142
+  orig: 185, 144
+  offset: 12, 2
+  index: -1
+hq1_gx
+  rotate: true
+  xy: 164, 30
+  size: 122, 142
+  orig: 149, 163
+  offset: 15, 12
+  index: -1
+hq1_gz
+  rotate: true
+  xy: 164, 2
+  size: 26, 178
+  orig: 30, 183
+  offset: 2, 3
+  index: -1

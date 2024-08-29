@@ -1,0 +1,205 @@
+{
+"skeleton": {
+	"hash": "IYMtpcCdU5wImdaqw8NvLE6XBQM",
+	"spine": "3.8.99",
+	"x": -193.64,
+	"y": -205.23,
+	"width": 347.89,
+	"height": 328.74,
+	"images": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\变身特效\\images",
+	"audio": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\变身特效\\images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bs_y2", "parent": "root", "scaleX": 1.2667, "scaleY": 1.2667, "color": "ff0303ff" },
+	{ "name": "bs_y1", "parent": "root", "scaleX": 0.6291, "scaleY": 0.6291, "color": "000000ff" },
+	{ "name": "bs_xy", "parent": "root", "x": -79.49, "y": -104.62, "scaleX": 0.3672, "scaleY": 0.3672 },
+	{ "name": "bs_xy2", "parent": "root", "x": 146.97, "y": 93.59, "scaleX": 0.4042, "scaleY": 0.4042 },
+	{ "name": "bs_xy3", "parent": "root", "x": 125.88, "y": -61.23, "scaleX": 0.3672, "scaleY": 0.3672 },
+	{ "name": "bs_xy4", "parent": "root", "x": -143.17, "y": -1.93, "scaleX": 0.4329, "scaleY": 0.4329 },
+	{ "name": "bs_xy5", "parent": "root", "x": -182.57, "y": -156.36, "scaleX": 0.6149, "scaleY": 0.6149 },
+	{ "name": "bs_xy6", "parent": "root", "x": -92.23, "y": -194.17, "scaleX": 0.3672, "scaleY": 0.3672 },
+	{ "name": "bs_xy7", "parent": "root", "x": 49.86, "y": -194.17, "scaleX": 0.6149, "scaleY": 0.6149 }
+],
+"slots": [
+	{ "name": "bs_y2", "bone": "bs_y2", "attachment": "bs_y2" },
+	{ "name": "bs_xy", "bone": "bs_xy", "color": "ffffffc5", "attachment": "bs_xy" },
+	{ "name": "bs_xy2", "bone": "bs_xy2", "color": "ffffffa9", "attachment": "bs_xy" },
+	{ "name": "bs_xy3", "bone": "bs_xy3", "color": "ffffffc5", "attachment": "bs_xy" },
+	{ "name": "bs_xy4", "bone": "bs_xy4", "color": "ffffffa9", "attachment": "bs_xy" },
+	{ "name": "bs_xy5", "bone": "bs_xy5", "attachment": "bs_xy" },
+	{ "name": "bs_xy6", "bone": "bs_xy6", "attachment": "bs_xy" },
+	{ "name": "bs_xy7", "bone": "bs_xy7", "attachment": "bs_xy" },
+	{ "name": "bs_y1", "bone": "bs_y1", "attachment": "bs_y1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bs_xy": {
+				"bs_xy": { "width": 36, "height": 36 }
+			},
+			"bs_xy2": {
+				"bs_xy": { "width": 36, "height": 36 }
+			},
+			"bs_xy3": {
+				"bs_xy": { "width": 36, "height": 36 }
+			},
+			"bs_xy4": {
+				"bs_xy": { "width": 36, "height": 36 }
+			},
+			"bs_xy5": {
+				"bs_xy": { "width": 36, "height": 36 }
+			},
+			"bs_xy6": {
+				"bs_xy": { "width": 36, "height": 36 }
+			},
+			"bs_xy7": {
+				"bs_xy": { "width": 36, "height": 36 }
+			},
+			"bs_y1": {
+				"bs_y1": { "width": 126, "height": 126 }
+			},
+			"bs_y2": {
+				"bs_y2": { "width": 195, "height": 195 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"bs_xy": {
+				"color": [
+					{ "color": "ffffffc5", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"bs_xy2": {
+				"color": [
+					{ "color": "ffffffa9", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"bs_xy3": {
+				"color": [
+					{ "color": "ffffffc5", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"bs_xy4": {
+				"color": [
+					{ "color": "ffffffa9", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"bs_xy5": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"bs_xy6": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"bs_xy7": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"bs_y1": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"bs_y2": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff38", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bs_y2": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.727, "y": 1.727 }
+				]
+			},
+			"bs_y1": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 4.148, "y": 4.148, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": -0.114, "y": -0.114 }
+				]
+			},
+			"bs_xy": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "y": 97.96, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": -130.62, "y": 51.09 }
+				]
+			},
+			"bs_xy2": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "y": 97.96 }
+				]
+			},
+			"bs_xy3": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "y": 97.96, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 71.87, "y": 121.08 }
+				]
+			},
+			"bs_xy4": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "y": 97.96 }
+				]
+			},
+			"bs_xy5": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "y": 223.1 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.347, "y": 1.347 }
+				]
+			},
+			"bs_xy6": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 18.96, "y": 344.44 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.347, "y": 1.347 }
+				]
+			},
+			"bs_xy7": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 65.1, "y": 347.6 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.347, "y": 1.347 }
+				]
+			}
+		}
+	}
+}
+}

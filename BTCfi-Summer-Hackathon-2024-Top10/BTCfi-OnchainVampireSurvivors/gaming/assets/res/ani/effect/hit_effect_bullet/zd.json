@@ -1,0 +1,95 @@
+{
+"skeleton": {
+	"hash": "JnST/8ZwDOOPvj8YubQqO/Y4VMU",
+	"spine": "3.8.99",
+	"x": -70.75,
+	"y": -70.3,
+	"width": 141,
+	"height": 141,
+	"images": "./images/",
+	"audio": "C:/Users/QianHu002/Desktop/动画/火线枪战躲猫猫/子弹击中效果/images"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "zd_5", "bone": "root", "attachment": "zd_5" },
+	{ "name": "zd_4", "bone": "root", "attachment": "zd_4" },
+	{ "name": "zd_3", "bone": "root", "attachment": "zd_3" },
+	{ "name": "zd_2", "bone": "root", "attachment": "zd_2" },
+	{ "name": "zd_1", "bone": "root", "attachment": "zd_1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"zd_1": {
+				"zd_1": { "x": 3.25, "y": -1.3, "width": 108, "height": 108 }
+			},
+			"zd_2": {
+				"zd_2": { "x": 2.75, "y": -1.3, "width": 135, "height": 130 }
+			},
+			"zd_3": {
+				"zd_3": { "x": -3.25, "y": 0.2, "width": 135, "height": 141 }
+			},
+			"zd_4": {
+				"zd_4": { "x": 1.25, "y": -1.8, "width": 110, "height": 111 }
+			},
+			"zd_5": {
+				"zd_5": { "x": 3.75, "y": -0.8, "width": 105, "height": 73 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"zd_1": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667, "color": "ffffff00" }
+				]
+			},
+			"zd_2": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333, "color": "ffffff00" }
+				]
+			},
+			"zd_3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"zd_4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "color": "ffffff00" }
+				]
+			},
+			"zd_5": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.758, "y": 1.758 }
+				]
+			}
+		}
+	}
+}
+}

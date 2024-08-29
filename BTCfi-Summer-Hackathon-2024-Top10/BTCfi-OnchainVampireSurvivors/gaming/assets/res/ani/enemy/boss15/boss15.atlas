@@ -1,0 +1,167 @@
+
+boss15.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 464
+  size: 510, 520
+  orig: 512, 531
+  offset: 1, 2
+  index: -1
+breast
+  rotate: false
+  xy: 1297, 874
+  size: 515, 393
+  orig: 515, 394
+  offset: 0, 1
+  index: -1
+chui
+  rotate: false
+  xy: 446, 976
+  size: 474, 323
+  orig: 484, 323
+  offset: 10, 0
+  index: -1
+fx00
+  rotate: true
+  xy: 1004, 1516
+  size: 128, 176
+  orig: 128, 176
+  offset: 0, 0
+  index: -1
+fx01
+  rotate: false
+  xy: 466, 1528
+  size: 203, 116
+  orig: 203, 122
+  offset: 0, 6
+  index: -1
+fx02
+  rotate: false
+  xy: 671, 1528
+  size: 331, 116
+  orig: 331, 119
+  offset: 0, 2
+  index: -1
+fx03
+  rotate: false
+  xy: 1486, 1269
+  size: 358, 222
+  orig: 358, 222
+  offset: 0, 0
+  index: -1
+fx04
+  rotate: false
+  xy: 184, 1389
+  size: 278, 178
+  orig: 278, 178
+  offset: 0, 0
+  index: -1
+fx05
+  rotate: false
+  xy: 894, 1301
+  size: 309, 212
+  orig: 309, 212
+  offset: 0, 0
+  index: -1
+fx06
+  rotate: false
+  xy: 1668, 1493
+  size: 222, 151
+  orig: 222, 155
+  offset: 0, 4
+  index: -1
+fx_attack
+  rotate: false
+  xy: 524, 2
+  size: 1375, 870
+  orig: 1377, 870
+  offset: 2, 0
+  index: -1
+head
+  rotate: true
+  xy: 922, 922
+  size: 363, 373
+  orig: 375, 386
+  offset: 9, 1
+  index: -1
+l_arm1
+  rotate: true
+  xy: 1205, 1287
+  size: 221, 279
+  orig: 221, 289
+  offset: 0, 10
+  index: -1
+l_arm2
+  rotate: true
+  xy: 1182, 1515
+  size: 129, 160
+  orig: 132, 161
+  offset: 3, 0
+  index: -1
+l_foot
+  rotate: false
+  xy: 156, 1569
+  size: 166, 75
+  orig: 166, 76
+  offset: 0, 1
+  index: -1
+l_hand
+  rotate: false
+  xy: 1344, 1510
+  size: 141, 134
+  orig: 141, 148
+  offset: 0, 14
+  index: -1
+l_leg2
+  rotate: true
+  xy: 2, 1404
+  size: 163, 180
+  orig: 163, 180
+  offset: 0, 0
+  index: -1
+r_arm1
+  rotate: true
+  xy: 2, 1124
+  size: 263, 442
+  orig: 269, 447
+  offset: 0, 5
+  index: -1
+r_foot
+  rotate: false
+  xy: 2, 1578
+  size: 152, 66
+  orig: 152, 67
+  offset: 0, 0
+  index: -1
+r_leg1
+  rotate: false
+  xy: 464, 1346
+  size: 212, 180
+  orig: 212, 180
+  offset: 0, 0
+  index: -1
+r_leg2
+  rotate: true
+  xy: 1487, 1494
+  size: 150, 179
+  orig: 150, 179
+  offset: 0, 0
+  index: -1
+x
+  rotate: false
+  xy: 678, 1328
+  size: 214, 198
+  orig: 214, 198
+  offset: 0, 0
+  index: -1
+yy
+  rotate: false
+  xy: 324, 1569
+  size: 140, 75
+  orig: 140, 75
+  offset: 0, 0
+  index: -1

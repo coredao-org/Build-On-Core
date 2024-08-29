@@ -1,0 +1,48 @@
+
+lusebaozha.png
+size: 68,131
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 24, 0
+  size: 18, 18
+  orig: 21, 21
+  offset: 2, 1
+  index: -1
+daxue
+  rotate: true
+  xy: 0, 38
+  size: 93, 68
+  orig: 94, 68
+  offset: 0, 0
+  index: -1
+y-1
+  rotate: false
+  xy: 0, 19
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+y-2
+  rotate: false
+  xy: 47, 26
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+z-1
+  rotate: false
+  xy: 0, 0
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+z-2
+  rotate: false
+  xy: 24, 20
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1

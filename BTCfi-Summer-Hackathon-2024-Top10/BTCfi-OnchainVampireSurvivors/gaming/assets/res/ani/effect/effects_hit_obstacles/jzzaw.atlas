@@ -1,0 +1,48 @@
+
+jzzaw.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+k1
+  rotate: false
+  xy: 2, 80
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+k2
+  rotate: false
+  xy: 12, 78
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+k3
+  rotate: false
+  xy: 25, 70
+  size: 19, 17
+  orig: 19, 17
+  offset: 0, 0
+  index: -1
+y1
+  rotate: false
+  xy: 2, 25
+  size: 41, 43
+  orig: 42, 43
+  offset: 1, 0
+  index: -1
+y2
+  rotate: true
+  xy: 45, 2
+  size: 43, 49
+  orig: 46, 51
+  offset: 1, 0
+  index: -1
+y3
+  rotate: true
+  xy: 46, 47
+  size: 40, 43
+  orig: 43, 43
+  offset: 1, 0
+  index: -1

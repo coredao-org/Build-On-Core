@@ -1,0 +1,41 @@
+
+slcd.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ttt1
+  rotate: true
+  xy: 2, 11
+  size: 34, 515
+  orig: 34, 515
+  offset: 0, 0
+  index: -1
+x1
+  rotate: true
+  xy: 572, 2
+  size: 43, 44
+  orig: 43, 44
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 618, 9
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1
+x3
+  rotate: true
+  xy: 660, 11
+  size: 34, 40
+  orig: 34, 40
+  offset: 0, 0
+  index: -1
+x4
+  rotate: false
+  xy: 519, 8
+  size: 51, 37
+  orig: 51, 37
+  offset: 0, 0
+  index: -1

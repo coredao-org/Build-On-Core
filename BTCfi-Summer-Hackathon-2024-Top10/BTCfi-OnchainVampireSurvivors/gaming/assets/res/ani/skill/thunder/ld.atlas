@@ -1,0 +1,62 @@
+
+ld.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+l1
+  rotate: false
+  xy: 907, 292
+  size: 210, 666
+  orig: 212, 685
+  offset: 1, 19
+  index: -1
+l2
+  rotate: true
+  xy: 689, 41
+  size: 238, 663
+  orig: 240, 664
+  offset: 1, 1
+  index: -1
+l3
+  rotate: false
+  xy: 693, 284
+  size: 212, 674
+  orig: 214, 674
+  offset: 1, 0
+  index: -1
+l4
+  rotate: false
+  xy: 1119, 303
+  size: 209, 655
+  orig: 210, 657
+  offset: 0, 1
+  index: -1
+y1
+  rotate: false
+  xy: 234, 270
+  size: 228, 688
+  orig: 230, 708
+  offset: 1, 20
+  index: -1
+y2
+  rotate: true
+  xy: 2, 2
+  size: 258, 685
+  orig: 260, 686
+  offset: 1, 1
+  index: -1
+y3
+  rotate: false
+  xy: 2, 262
+  size: 230, 696
+  orig: 232, 696
+  offset: 1, 0
+  index: -1
+y4
+  rotate: false
+  xy: 464, 281
+  size: 227, 677
+  orig: 228, 679
+  offset: 0, 1
+  index: -1

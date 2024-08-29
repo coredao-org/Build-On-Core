@@ -1,0 +1,62 @@
+
+ts.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ts_1zi
+  rotate: true
+  xy: 2, 11
+  size: 491, 62
+  orig: 491, 62
+  offset: 0, 0
+  index: -1
+ts_2zi
+  rotate: true
+  xy: 142, 230
+  size: 272, 48
+  orig: 272, 48
+  offset: 0, 0
+  index: -1
+ts_ban
+  rotate: true
+  xy: 192, 291
+  size: 211, 156
+  orig: 211, 156
+  offset: 0, 0
+  index: -1
+ts_dd
+  rotate: true
+  xy: 66, 166
+  size: 336, 74
+  orig: 336, 74
+  offset: 0, 0
+  index: -1
+ts_js
+  rotate: false
+  xy: 66, 88
+  size: 35, 76
+  orig: 35, 76
+  offset: 0, 0
+  index: -1
+ts_xd
+  rotate: false
+  xy: 2, 2
+  size: 332, 7
+  orig: 332, 7
+  offset: 0, 0
+  index: -1
+ts_zi
+  rotate: false
+  xy: 103, 106
+  size: 219, 58
+  orig: 219, 58
+  offset: 0, 0
+  index: -1
+ts_zi2
+  rotate: false
+  xy: 66, 28
+  size: 270, 58
+  orig: 270, 58
+  offset: 0, 0
+  index: -1

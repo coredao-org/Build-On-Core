@@ -1,0 +1,279 @@
+
+boss10.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 575, 148
+  size: 258, 378
+  orig: 258, 378
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 1812, 689
+  size: 148, 96
+  orig: 150, 98
+  offset: 1, 1
+  index: -1
+fire_00000
+  rotate: true
+  xy: 1215, 2
+  size: 85, 105
+  orig: 320, 320
+  offset: 16, 110
+  index: -1
+fire_00001
+  rotate: false
+  xy: 1648, 703
+  size: 162, 134
+  orig: 320, 320
+  offset: 16, 99
+  index: -1
+fire_00002
+  rotate: false
+  xy: 835, 73
+  size: 183, 177
+  orig: 320, 320
+  offset: 15, 77
+  index: -1
+fire_00003
+  rotate: true
+  xy: 1589, 440
+  size: 209, 182
+  orig: 320, 320
+  offset: 16, 77
+  index: -1
+fire_00004
+  rotate: false
+  xy: 1271, 89
+  size: 233, 181
+  orig: 320, 320
+  offset: 16, 72
+  index: -1
+fire_00005
+  rotate: false
+  xy: 1292, 272
+  size: 245, 187
+  orig: 320, 320
+  offset: 19, 67
+  index: -1
+fire_00006
+  rotate: false
+  xy: 1327, 461
+  size: 260, 188
+  orig: 320, 320
+  offset: 20, 66
+  index: -1
+fire_00007
+  rotate: false
+  xy: 1024, 300
+  size: 266, 187
+  orig: 320, 320
+  offset: 19, 66
+  index: -1
+fire_00008
+  rotate: true
+  xy: 835, 252
+  size: 274, 187
+  orig: 320, 320
+  offset: 18, 66
+  index: -1
+fire_00009
+  rotate: false
+  xy: 1370, 835
+  size: 276, 187
+  orig: 320, 320
+  offset: 20, 66
+  index: -1
+fire_00010
+  rotate: false
+  xy: 1648, 839
+  size: 276, 183
+  orig: 320, 320
+  offset: 21, 68
+  index: -1
+fire_00011
+  rotate: false
+  xy: 1370, 651
+  size: 273, 182
+  orig: 320, 320
+  offset: 24, 66
+  index: -1
+fire_00012
+  rotate: false
+  xy: 1057, 489
+  size: 268, 176
+  orig: 320, 320
+  offset: 27, 67
+  index: -1
+fire_00014
+  rotate: false
+  xy: 1024, 135
+  size: 245, 163
+  orig: 320, 320
+  offset: 37, 72
+  index: -1
+fire_00016
+  rotate: false
+  xy: 1539, 287
+  size: 226, 151
+  orig: 320, 320
+  offset: 49, 86
+  index: -1
+fire_00018
+  rotate: false
+  xy: 1020, 5
+  size: 193, 128
+  orig: 320, 320
+  offset: 72, 110
+  index: -1
+fire_00020
+  rotate: true
+  xy: 1745, 121
+  size: 164, 107
+  orig: 320, 320
+  offset: 89, 124
+  index: -1
+fx1
+  rotate: false
+  xy: 2, 26
+  size: 571, 500
+  orig: 615, 500
+  offset: 2, 0
+  index: -1
+fx2
+  rotate: false
+  xy: 2, 528
+  size: 1053, 494
+  orig: 1053, 494
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1057, 667
+  size: 311, 355
+  orig: 311, 355
+  offset: 0, 0
+  index: -1
+l_arm1
+  rotate: true
+  xy: 1607, 117
+  size: 168, 136
+  orig: 170, 138
+  offset: 1, 1
+  index: -1
+l_arm2
+  rotate: false
+  xy: 1910, 686
+  size: 133, 138
+  orig: 135, 140
+  offset: 1, 1
+  index: -1
+l_foot
+  rotate: false
+  xy: 743, 2
+  size: 80, 46
+  orig: 80, 46
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: false
+  xy: 743, 2
+  size: 80, 46
+  orig: 80, 46
+  offset: 0, 0
+  index: -1
+l_footc
+  rotate: false
+  xy: 1854, 159
+  size: 90, 60
+  orig: 90, 60
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: true
+  xy: 1854, 221
+  size: 106, 92
+  orig: 108, 95
+  offset: 1, 2
+  index: -1
+l_leg1
+  rotate: false
+  xy: 1904, 562
+  size: 114, 122
+  orig: 116, 124
+  offset: 1, 1
+  index: -1
+l_leg2
+  rotate: true
+  xy: 1773, 446
+  size: 89, 127
+  orig: 89, 127
+  offset: 0, 0
+  index: -1
+l_legc1
+  rotate: false
+  xy: 1506, 91
+  size: 99, 179
+  orig: 99, 179
+  offset: 0, 0
+  index: -1
+l_legc2
+  rotate: false
+  xy: 1844, 329
+  size: 84, 115
+  orig: 85, 115
+  offset: 1, 0
+  index: -1
+r_arm1
+  rotate: false
+  xy: 1773, 537
+  size: 129, 150
+  orig: 131, 152
+  offset: 1, 1
+  index: -1
+r_arm2
+  rotate: false
+  xy: 1745, 2
+  size: 98, 117
+  orig: 100, 119
+  offset: 1, 1
+  index: -1
+r_hand
+  rotate: true
+  xy: 743, 50
+  size: 96, 90
+  orig: 98, 92
+  offset: 1, 1
+  index: -1
+r_leg1
+  rotate: true
+  xy: 575, 2
+  size: 144, 166
+  orig: 144, 167
+  offset: 0, 0
+  index: -1
+r_leg2
+  rotate: true
+  xy: 1322, 5
+  size: 82, 136
+  orig: 82, 136
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 1926, 826
+  size: 196, 110
+  orig: 196, 110
+  offset: 0, 0
+  index: -1
+yy
+  rotate: true
+  xy: 1767, 298
+  size: 140, 75
+  orig: 140, 75
+  offset: 0, 0
+  index: -1

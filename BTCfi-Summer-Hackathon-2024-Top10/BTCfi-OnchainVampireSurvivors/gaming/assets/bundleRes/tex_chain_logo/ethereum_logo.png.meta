@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3906553d-ed7a-4cfe-bd7c-34b07bd778a5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 155,
+  "height": 155,
+  "platformSettings": {},
+  "subMetas": {
+    "ethereum_logo": {
+      "ver": "1.0.6",
+      "uuid": "95be847c-d05e-4a1e-a5fd-7384cdc224c7",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3906553d-ed7a-4cfe-bd7c-34b07bd778a5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 27,
+      "trimY": 0,
+      "width": 101,
+      "height": 155,
+      "rawWidth": 155,
+      "rawHeight": 155,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

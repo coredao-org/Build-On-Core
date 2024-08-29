@@ -1,0 +1,153 @@
+
+hqq.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+h_hqq_d1
+  rotate: false
+  xy: 18, 20
+  size: 4, 4
+  orig: 5, 6
+  offset: 1, 1
+  index: -1
+h_hqq_d2
+  rotate: false
+  xy: 2, 32
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+h_hqq_d3
+  rotate: false
+  xy: 20, 36
+  size: 4, 4
+  orig: 5, 6
+  offset: 0, 1
+  index: -1
+h_hqq_d4
+  rotate: false
+  xy: 2, 14
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+h_hqq_d5
+  rotate: false
+  xy: 2, 6
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+h_hqq_d6
+  rotate: false
+  xy: 24, 24
+  size: 3, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+h_hqq_d7
+  rotate: false
+  xy: 20, 30
+  size: 4, 4
+  orig: 5, 6
+  offset: 0, 1
+  index: -1
+h_hqq_d8
+  rotate: false
+  xy: 10, 14
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+h_hqq_di
+  rotate: false
+  xy: 295, 10
+  size: 123, 39
+  orig: 123, 39
+  offset: 0, 0
+  index: -1
+h_hqq_g
+  rotate: false
+  xy: 295, 51
+  size: 271, 75
+  orig: 278, 78
+  offset: 3, 0
+  index: -1
+hqq_d1
+  rotate: false
+  xy: 18, 14
+  size: 4, 4
+  orig: 5, 6
+  offset: 1, 1
+  index: -1
+hqq_d2
+  rotate: false
+  xy: 2, 22
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+hqq_d3
+  rotate: false
+  xy: 18, 8
+  size: 4, 4
+  orig: 5, 6
+  offset: 0, 1
+  index: -1
+hqq_d4
+  rotate: false
+  xy: 10, 6
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+hqq_d5
+  rotate: false
+  xy: 12, 34
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+hqq_d6
+  rotate: false
+  xy: 26, 36
+  size: 3, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+hqq_d7
+  rotate: false
+  xy: 18, 2
+  size: 4, 4
+  orig: 5, 6
+  offset: 0, 1
+  index: -1
+hqq_d8
+  rotate: false
+  xy: 12, 26
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+hqq_di
+  rotate: false
+  xy: 420, 10
+  size: 123, 39
+  orig: 123, 39
+  offset: 0, 0
+  index: -1
+hqq_g
+  rotate: false
+  xy: 568, 51
+  size: 271, 75
+  orig: 278, 78
+  offset: 3, 0
+  index: -1
+hqq_xt
+  rotate: false
+  xy: 2, 42
+  size: 291, 84
+  orig: 295, 85
+  offset: 2, 0
+  index: -1
