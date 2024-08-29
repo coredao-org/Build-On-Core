@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeInUp {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.pink_gradient {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+
+    background: #fb37ff;
+    filter: blur(200px);
+}
+
+.blue_gradient {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+
+    background: #18b2de;
+    filter: blur(200px);
+}
