@@ -1,0 +1,58 @@
+# Welcome to the Akash Network! 🚀☁
+# This file is called a Stack Definition Laguage (SDL)
+# SDL is a human friendly data standard for declaring deployment attributes. 
+# The SDL file is a "form" to request resources from the Network. 
+# SDL is compatible with the YAML standard and similar to Docker Compose files.
+
+---
+# Indicates version of Akash configuration file. Currently only "2.0" is accepted.
+version: "2.0"
+
+# The top-level services entry contains a map of workloads to be ran on the Akash deployment. Each key is a service name; values are a map containing the following keys:
+# https://akash.network/docs/getting-started/stack-definition-language/#services
+services:
+  # The name of the service "web"
+  web:
+    # The docker container image with version. You must specify a version, the "latest" tag doesn't work.
+    image: akashlytics/hello-akash-world:0.2.0
+    # You can map ports here https://akash.network/docs/getting-started/stack-definition-language/#servicesexpose
+    expose:
+      - port: 3000
+        as: 80
+        to:
+          - global: true
+
+# The profiles section contains named compute and placement profiles to be used in the deployment.
+# https://akash.network/docs/getting-started/stack-definition-language/#profiles
+profiles:
+  # profiles.compute is map of named compute profiles. Each profile specifies compute resources to be leased for each service instance uses uses the profile.
+  # https://akash.network/docs/getting-started/stack-definition-language/#profilescompute
+  compute:
+    # The name of the service
+    web:
+      resources:
+        cpu:
+          units: 0.5
+        memory:
+          size: 512Mi
+        storage:
+          size: 512Mi
+
+# profiles.placement is map of named datacenter profiles. Each profile specifies required datacenter attributes and pricing configuration for each compute profile that will be used within the datacenter. It also specifies optional list of signatures of which tenants expects audit of datacenter attributes.
+# https://akash.network/docs/getting-started/stack-definition-language/#profilesplacement
+  placement:
+    dcloud:
+      pricing:
+        # The name of the service
+        web:
+          denom: uakt
+          amount: 1000
+
+# The deployment section defines how to deploy the services. It is a mapping of service name to deployment configuration.
+# https://akash.network/docs/getting-started/stack-definition-language/#deployment
+deployment:
+  # The name of the service
+  web:
+    dcloud:
+      profile: web
+      count: 1
