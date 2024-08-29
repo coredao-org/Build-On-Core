@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Created Successfully - Bluma Event Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+        .header {
+            background-color: #4A90E2;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .header img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 20px;
+            color: #333333;
+        }
+
+        .content p {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+
+        .content .highlight {
+            font-weight: bold;
+            color: #4A90E2;
+        }
+
+        .content .event-info {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #4A90E2;
+        }
+
+        .footer {
+            background-color: #324744;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        .footer .social-icons {
+            margin-top: 10px;
+        }
+
+        .footer .social-icons i {
+            margin: 0 5px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .footer .social-icons i:hover {
+            color: #4A90E2;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+
+            .header h1 {
+                font-size: 20px;
+            }
+
+            .content p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <img src="https://res.cloudinary.com/dy7el0ucd/image/upload/v1713701831/Logo_aatjg0.svg" alt="Bluma Logo">
+        <h1>Event Created Successfully!</h1>
+    </div>
+    <div class="content">
+        <p>Hi <span th:text="${fullName}"></span>,</p>
+        <p>We're excited to inform you that your event has been successfully created on the Bluma Event Platform.</p>
+        <div class="event-info">
+            <p><strong>Event Name:</strong> <span th:text="${eventName}"></span></p>
+            <p><strong>Date:</strong> <span th:text="${eventDate}"></span></p>
+            <p><strong>Time:</strong> <span th:text="${eventTime}"></span></p>
+            <p><strong>Location:</strong> <span th:text="${eventLocation}"></span></p>
+        </div>
+        <p>Thank you for using our platform to host your event. We hope it turns out to be a great success!</p>
+        <p>If you need any assistance, feel free to reach out to our support team.</p>
+        <p class="highlight">Happy event hosting!</p>
+        <p style="font-style: italic;"><strong>Best regards,</strong></p>
+        <p style="font-style: italic;"><strong>The Bluma Event Team</strong></p>
+    </div>
+    <div class="footer">
+        <p>Connect with us on:</p>
+        <div class="social-icons">
+            <i class="ri-instagram-fill"></i>
+            <i class="ri-twitter-x-fill"></i>
+            <i class="ri-facebook-circle-fill"></i>
+        </div>
+        <p>&copy; All rights reserved - Bluma Event Platform</p>
+    </div>
+</div>
+</body>
+</html>
