@@ -1,0 +1,4 @@
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+@uniswap/v2-periphery/=lib/v2-periphery/
+@uniswap/v2-core/=lib/v2-core/
+@solmate/=lib/solmate/src/
