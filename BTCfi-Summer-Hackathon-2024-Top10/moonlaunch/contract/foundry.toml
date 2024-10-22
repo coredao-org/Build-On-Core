@@ -1,0 +1,16 @@
+[profile.default]
+src = "src"
+out = "out"
+test = "test"
+libs = ["lib"]
+via_ir = true
+
+[rpc_endpoints]
+core_testnet = "${TESTNET_RPC_URL}"
+core_mainnet = "${MAINNET_RPC_URL}"
+
+[etherscan]
+core_testnet = { key = "${CORESCAN_TESTNET_API_KEY}", url = "${CORESCAN_TESTNET_API}", chain = 1115 }
+core_mainnet = { key = "${CORESCAN_API_KEY}", url = "${CORESCAN_API}", chain = 1116 }
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
