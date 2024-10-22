@@ -1,0 +1,83 @@
+
+cjj.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cjj_b1
+  rotate: true
+  xy: 520, 34
+  size: 30, 101
+  orig: 33, 103
+  offset: 2, 1
+  index: -1
+cjj_b1_1
+  rotate: true
+  xy: 520, 2
+  size: 30, 101
+  orig: 33, 103
+  offset: 2, 1
+  index: -1
+cjj_b2
+  rotate: true
+  xy: 458, 153
+  size: 51, 147
+  orig: 54, 150
+  offset: 1, 2
+  index: -1
+cjj_b2_1
+  rotate: true
+  xy: 371, 13
+  size: 51, 147
+  orig: 54, 150
+  offset: 1, 1
+  index: -1
+cjj_b3
+  rotate: true
+  xy: 210, 136
+  size: 68, 246
+  orig: 71, 249
+  offset: 1, 1
+  index: -1
+cjj_b3_1
+  rotate: true
+  xy: 371, 66
+  size: 68, 246
+  orig: 71, 249
+  offset: 1, 2
+  index: -1
+cjj_b4
+  rotate: true
+  xy: 2, 16
+  size: 96, 367
+  orig: 99, 370
+  offset: 2, 1
+  index: -1
+cjj_b4_1
+  rotate: true
+  xy: 210, 206
+  size: 96, 367
+  orig: 99, 370
+  offset: 2, 2
+  index: -1
+cjj_s
+  rotate: true
+  xy: 408, 304
+  size: 196, 195
+  orig: 198, 197
+  offset: 1, 1
+  index: -1
+cjj_sx
+  rotate: false
+  xy: 2, 114
+  size: 206, 386
+  orig: 231, 387
+  offset: 0, 0
+  index: -1
+cjj_x
+  rotate: false
+  xy: 210, 304
+  size: 196, 196
+  orig: 198, 198
+  offset: 1, 1
+  index: -1

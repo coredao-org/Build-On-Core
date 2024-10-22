@@ -1,0 +1,195 @@
+
+boss7_spine.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack2_smear
+  rotate: true
+  xy: 2, 206
+  size: 815, 734
+  orig: 824, 746
+  offset: 0, 0
+  index: -1
+attack2_smear2
+  rotate: false
+  xy: 738, 403
+  size: 601, 618
+  orig: 604, 621
+  offset: 3, 0
+  index: -1
+body
+  rotate: true
+  xy: 738, 246
+  size: 155, 314
+  orig: 155, 314
+  offset: 0, 0
+  index: -1
+cap
+  rotate: true
+  xy: 83, 12
+  size: 192, 243
+  orig: 192, 243
+  offset: 0, 0
+  index: -1
+collar
+  rotate: true
+  xy: 670, 47
+  size: 157, 107
+  orig: 159, 110
+  offset: 1, 2
+  index: -1
+eye
+  rotate: true
+  xy: 1171, 272
+  size: 129, 80
+  orig: 131, 83
+  offset: 1, 2
+  index: -1
+fx00
+  rotate: true
+  xy: 913, 4
+  size: 88, 100
+  orig: 88, 100
+  offset: 0, 0
+  index: -1
+fx01
+  rotate: true
+  xy: 1232, 3
+  size: 125, 80
+  orig: 125, 83
+  offset: 0, 3
+  index: -1
+fx02
+  rotate: true
+  xy: 2, 6
+  size: 198, 79
+  orig: 198, 81
+  offset: 0, 1
+  index: -1
+fx03
+  rotate: true
+  xy: 781, 27
+  size: 217, 130
+  orig: 217, 130
+  offset: 0, 0
+  index: -1
+fx04
+  rotate: true
+  xy: 563, 29
+  size: 175, 105
+  orig: 177, 105
+  offset: 0, 0
+  index: -1
+fx05
+  rotate: true
+  xy: 448, 23
+  size: 181, 113
+  orig: 183, 113
+  offset: 2, 0
+  index: -1
+fx06
+  rotate: true
+  xy: 1137, 130
+  size: 129, 96
+  orig: 129, 97
+  offset: 0, 1
+  index: -1
+l_arm1
+  rotate: true
+  xy: 1099, 17
+  size: 99, 131
+  orig: 101, 133
+  offset: 1, 1
+  index: -1
+l_arm2
+  rotate: true
+  xy: 1015, 2
+  size: 94, 82
+  orig: 96, 85
+  offset: 1, 2
+  index: -1
+l_foot
+  rotate: false
+  xy: 1253, 283
+  size: 77, 39
+  orig: 77, 39
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: true
+  xy: 1293, 211
+  size: 70, 63
+  orig: 73, 65
+  offset: 1, 1
+  index: -1
+l_leg1
+  rotate: false
+  xy: 913, 94
+  size: 74, 150
+  orig: 76, 150
+  offset: 0, 0
+  index: -1
+l_leg2
+  rotate: false
+  xy: 1111, 261
+  size: 58, 140
+  orig: 58, 140
+  offset: 0, 0
+  index: -1
+r_arm1
+  rotate: false
+  xy: 1235, 148
+  size: 56, 122
+  orig: 58, 124
+  offset: 1, 1
+  index: -1
+r_arm2
+  rotate: false
+  xy: 670, 2
+  size: 109, 43
+  orig: 111, 46
+  offset: 1, 2
+  index: -1
+r_foot
+  rotate: true
+  xy: 1253, 324
+  size: 77, 40
+  orig: 77, 40
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 1295, 325
+  size: 65, 76
+  orig: 67, 78
+  offset: 1, 1
+  index: -1
+r_leg1
+  rotate: false
+  xy: 989, 98
+  size: 69, 146
+  orig: 69, 146
+  offset: 0, 0
+  index: -1
+r_leg2
+  rotate: false
+  xy: 1054, 260
+  size: 55, 141
+  orig: 56, 141
+  offset: 1, 0
+  index: -1
+shirt1
+  rotate: true
+  xy: 328, 19
+  size: 185, 118
+  orig: 185, 118
+  offset: 0, 0
+  index: -1
+yy
+  rotate: true
+  xy: 1060, 118
+  size: 140, 75
+  orig: 140, 75
+  offset: 0, 0
+  index: -1

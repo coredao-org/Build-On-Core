@@ -1,0 +1,126 @@
+{
+"skeleton": {
+	"hash": "X6deMDywCqUfSq1F29L01cbeBbc",
+	"spine": "3.8.99",
+	"x": -25.52,
+	"y": -2.31,
+	"width": 47,
+	"height": 51,
+	"images": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\击中障碍物效果\\images",
+	"audio": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\击中障碍物效果\\images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "k1", "parent": "root" },
+	{ "name": "k3", "parent": "k1", "x": -5.59, "y": 22.47 },
+	{ "name": "k4", "parent": "k1", "x": 6.65, "y": 12.51 },
+	{ "name": "k5", "parent": "k1", "x": 5.21, "y": 29.71 },
+	{ "name": "y2", "parent": "k1", "x": -0.77, "y": 20.83 }
+],
+"slots": [
+	{ "name": "y1", "bone": "y2", "attachment": "y1" },
+	{ "name": "y2", "bone": "y2", "attachment": "y2" },
+	{ "name": "k3", "bone": "k3", "attachment": "k3" },
+	{ "name": "k2", "bone": "k4", "attachment": "k2" },
+	{ "name": "k1", "bone": "k5", "attachment": "k1" },
+	{ "name": "y3", "bone": "y2", "attachment": "y3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"k1": {
+				"k1": { "x": 0.26, "y": -0.52, "width": 8, "height": 7 }
+			},
+			"k2": {
+				"k2": { "x": 0.32, "y": -0.32, "width": 11, "height": 9 }
+			},
+			"k3": {
+				"k3": { "x": 0.56, "y": -1.28, "width": 19, "height": 17 }
+			},
+			"y1": {
+				"y1": { "x": 1.25, "y": 2.36, "width": 42, "height": 43 }
+			},
+			"y2": {
+				"y2": { "x": -1.75, "y": 2.36, "width": 46, "height": 51 }
+			},
+			"y3": {
+				"y3": { "x": -0.25, "y": 0.36, "width": 43, "height": 43 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"k1": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"k2": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"k3": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"y1": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			},
+			"y2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			},
+			"y3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"k3": {
+				"scale": [
+					{ "x": -0.026, "y": -0.026, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667 }
+				]
+			},
+			"k4": {
+				"scale": [
+					{ "x": -0.026, "y": -0.026, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667 }
+				]
+			},
+			"k5": {
+				"scale": [
+					{ "x": -0.026, "y": -0.026, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667 }
+				]
+			},
+			"y2": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 1.752, "y": 1.752 }
+				]
+			}
+		}
+	}
+}
+}

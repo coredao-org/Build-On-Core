@@ -1,0 +1,98 @@
+{
+"skeleton": { "hash": "WL2OGQOmAG/6CJ0IxnnyJYpQm6A", "spine": "3.8.99", "images": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\木棒攻击特效\\images", "audio": "C:\\Users\\QianHu002\\Desktop\\动画\\火线枪战躲猫猫\\木棒攻击特效\\images" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "mb_5", "bone": "root" },
+	{ "name": "mb_4", "bone": "root" },
+	{ "name": "mb_3", "bone": "root" },
+	{ "name": "mb_2", "bone": "root" },
+	{ "name": "mb_1", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"mb_1": {
+				"mb_1": { "x": -17.82, "y": -1.54, "width": 115, "height": 108 }
+			},
+			"mb_2": {
+				"mb_2": { "x": 5.18, "y": 1.46, "width": 135, "height": 136 }
+			},
+			"mb_3": {
+				"mb_3": { "x": -2.32, "y": 3.96, "width": 132, "height": 117 }
+			},
+			"mb_4": {
+				"mb_4": { "x": 21.18, "y": 8.46, "width": 179, "height": 172 }
+			},
+			"mb_5": {
+				"mb_5": { "x": 2.68, "y": -6.54, "width": 98, "height": 92 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"mb_1": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "mb_1" }
+				]
+			},
+			"mb_2": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "mb_2" }
+				]
+			},
+			"mb_3": {
+				"color": [
+					{ "time": 0.1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "mb_3" }
+				]
+			},
+			"mb_4": {
+				"color": [
+					{ "time": 0.2, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "mb_4" }
+				]
+			},
+			"mb_5": {
+				"color": [
+					{ "time": 0.3, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3, "name": "mb_5" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "x": 1.341, "y": 1.341 }
+				]
+			}
+		}
+	}
+}
+}

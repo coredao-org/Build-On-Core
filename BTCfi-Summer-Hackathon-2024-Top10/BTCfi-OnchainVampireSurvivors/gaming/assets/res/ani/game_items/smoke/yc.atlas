@@ -1,0 +1,41 @@
+
+yc.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+y1
+  rotate: true
+  xy: 224, 33
+  size: 74, 43
+  orig: 75, 43
+  offset: 1, 0
+  index: -1
+y2
+  rotate: true
+  xy: 179, 27
+  size: 80, 43
+  orig: 80, 43
+  offset: 0, 0
+  index: -1
+y3
+  rotate: true
+  xy: 67, 5
+  size: 102, 60
+  orig: 102, 60
+  offset: 0, 0
+  index: -1
+y4
+  rotate: true
+  xy: 2, 3
+  size: 104, 63
+  orig: 104, 63
+  offset: 0, 0
+  index: -1
+y6
+  rotate: true
+  xy: 129, 2
+  size: 105, 48
+  orig: 105, 51
+  offset: 0, 0
+  index: -1

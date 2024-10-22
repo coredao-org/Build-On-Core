@@ -1,0 +1,27 @@
+
+bs.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bs_xy
+  rotate: false
+  xy: 2, 161
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+bs_y1
+  rotate: false
+  xy: 40, 73
+  size: 124, 124
+  orig: 126, 126
+  offset: 1, 1
+  index: -1
+bs_y2
+  rotate: false
+  xy: 166, 2
+  size: 195, 195
+  orig: 195, 195
+  offset: 0, 0
+  index: -1

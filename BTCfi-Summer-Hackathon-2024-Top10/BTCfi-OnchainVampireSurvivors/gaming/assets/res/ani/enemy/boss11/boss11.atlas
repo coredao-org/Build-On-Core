@@ -1,0 +1,160 @@
+
+boss11.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 69
+  size: 292, 441
+  orig: 293, 442
+  offset: 1, 1
+  index: -1
+eye
+  rotate: true
+  xy: 564, 11
+  size: 116, 74
+  orig: 120, 76
+  offset: 2, 1
+  index: -1
+fx01
+  rotate: false
+  xy: 296, 129
+  size: 559, 381
+  orig: 559, 382
+  offset: 0, 1
+  index: -1
+fx02
+  rotate: true
+  xy: 1065, 224
+  size: 286, 172
+  orig: 286, 172
+  offset: 0, 0
+  index: -1
+l_arm1
+  rotate: true
+  xy: 901, 12
+  size: 190, 258
+  orig: 193, 260
+  offset: 1, 1
+  index: -1
+l_arm2
+  rotate: false
+  xy: 857, 204
+  size: 206, 306
+  orig: 207, 307
+  offset: 0, 0
+  index: -1
+l_foot
+  rotate: false
+  xy: 1578, 5
+  size: 105, 84
+  orig: 106, 84
+  offset: 0, 0
+  index: -1
+l_leg1
+  rotate: false
+  xy: 818, 14
+  size: 81, 113
+  orig: 83, 116
+  offset: 1, 1
+  index: -1
+l_leg2
+  rotate: false
+  xy: 1472, 2
+  size: 104, 87
+  orig: 104, 87
+  offset: 0, 0
+  index: -1
+ll_arm1
+  rotate: true
+  xy: 1161, 6
+  size: 216, 144
+  orig: 218, 146
+  offset: 1, 1
+  index: -1
+ll_arm2
+  rotate: false
+  xy: 1631, 100
+  size: 138, 153
+  orig: 140, 155
+  offset: 1, 1
+  index: -1
+ll_hand
+  rotate: true
+  xy: 1307, 61
+  size: 187, 163
+  orig: 191, 165
+  offset: 2, 1
+  index: -1
+mouth
+  rotate: false
+  xy: 296, 5
+  size: 106, 122
+  orig: 106, 122
+  offset: 0, 0
+  index: -1
+r_arm1
+  rotate: true
+  xy: 640, 14
+  size: 113, 176
+  orig: 115, 178
+  offset: 1, 1
+  index: -1
+r_arm2
+  rotate: false
+  xy: 1239, 250
+  size: 210, 260
+  orig: 211, 260
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: false
+  xy: 1685, 14
+  size: 103, 84
+  orig: 103, 84
+  offset: 0, 0
+  index: -1
+r_leg1
+  rotate: false
+  xy: 1616, 402
+  size: 105, 108
+  orig: 107, 110
+  offset: 1, 1
+  index: -1
+r_leg2
+  rotate: true
+  xy: 1593, 255
+  size: 75, 98
+  orig: 76, 98
+  offset: 1, 0
+  index: -1
+rr_arm1
+  rotate: true
+  xy: 1451, 332
+  size: 178, 163
+  orig: 181, 167
+  offset: 2, 2
+  index: -1
+rr_arm2
+  rotate: false
+  xy: 404, 8
+  size: 158, 119
+  orig: 160, 121
+  offset: 1, 1
+  index: -1
+rr_hand
+  rotate: true
+  xy: 1472, 91
+  size: 162, 157
+  orig: 165, 159
+  offset: 1, 1
+  index: -1
+yy
+  rotate: false
+  xy: 1451, 255
+  size: 140, 75
+  orig: 140, 75
+  offset: 0, 0
+  index: -1

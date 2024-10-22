@@ -1,0 +1,12 @@
+service: () -> {
+    closeDeploymentAkash: (text) -> (text);
+    createAndStoreCertificateKeys: () -> (text);
+    createDeploymentAkash: () -> (text);
+    createLeaseAkash: (text, text, text, text, text) -> (text);
+    getAkashAddress: (text) -> (text);
+    getDeploymentManifestInfo: (text, text, text, text) -> (text);
+    sendManifestAkash: (text, text) -> (text);
+    transferAkashTokens: (text, text, text) -> (text);
+    transformResponse: (record {context:vec nat8; response:record {status:nat; body:vec nat8; headers:vec record {value:text; name:text}}}) -> (record {status:nat; body:vec nat8; headers:vec record {value:text; name:text}}) query;
+    updateAkashAddress: (text, text, text) -> (record {id:text; akashAddress:text; akashCertpem:text; akashPubEncod:text});
+}

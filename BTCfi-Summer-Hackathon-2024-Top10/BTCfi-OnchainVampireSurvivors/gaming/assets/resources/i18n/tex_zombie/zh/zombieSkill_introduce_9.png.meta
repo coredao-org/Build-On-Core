@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3ac2c89d-e0e8-40b9-8eaa-c6b5dce8b884",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 195,
+  "height": 23,
+  "platformSettings": {},
+  "subMetas": {
+    "zombieSkill_introduce_9": {
+      "ver": "1.0.6",
+      "uuid": "be8d32f2-0aa7-46b6-8007-a12ecb2b11a9",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3ac2c89d-e0e8-40b9-8eaa-c6b5dce8b884",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 195,
+      "height": 23,
+      "rawWidth": 195,
+      "rawHeight": 23,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

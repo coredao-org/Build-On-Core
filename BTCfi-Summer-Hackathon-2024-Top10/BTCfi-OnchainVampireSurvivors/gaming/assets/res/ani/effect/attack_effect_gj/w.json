@@ -1,0 +1,65 @@
+{
+"skeleton": {
+	"hash": "jM+Llil6iyWfjL8ZUDPgekhVXQc",
+	"spine": "3.8.99",
+	"x": -112.59,
+	"y": -133.11,
+	"width": 217,
+	"height": 221,
+	"images": "./images/",
+	"audio": "C:/Users/QianHu002/Desktop/动画/火线枪战躲猫猫/攻击特效/images"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "w_8", "bone": "root" },
+	{ "name": "w_7", "bone": "root" },
+	{ "name": "w_6", "bone": "root" },
+	{ "name": "w_5", "bone": "root" },
+	{ "name": "w_4", "bone": "root" },
+	{ "name": "w_3", "bone": "root" },
+	{ "name": "w_2", "bone": "root" },
+	{ "name": "w_1", "bone": "root", "attachment": "w_1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"w_1": {
+				"w_1": { "x": -4.09, "y": -22.61, "width": 217, "height": 221 },
+				"w_2": { "x": -24.59, "y": -1.11, "width": 202, "height": 230 },
+				"w_3": { "x": -9.59, "y": 14.89, "width": 232, "height": 228 },
+				"w_4": { "x": 6.91, "y": 32.89, "width": 233, "height": 192 },
+				"w_5": { "x": 16.91, "y": 18.39, "width": 213, "height": 221 },
+				"w_6": { "x": 50.41, "y": 16.39, "width": 128, "height": 217 },
+				"w_7": { "x": 38.41, "y": -13.61, "width": 206, "height": 157 },
+				"w_8": { "x": -15.09, "y": -65.11, "width": 195, "height": 96 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"w_1": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "w_2" },
+					{ "time": 0.1667, "name": "w_3" },
+					{ "time": 0.2, "name": "w_4" },
+					{ "time": 0.2333, "name": "w_5" },
+					{ "time": 0.2667, "name": "w_6" },
+					{ "time": 0.3333, "name": "w_7" },
+					{ "time": 0.4, "name": "w_8" }
+				]
+			}
+		}
+	}
+}
+}
