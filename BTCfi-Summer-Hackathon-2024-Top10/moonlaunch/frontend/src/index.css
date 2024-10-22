@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: orbitron, sans-serif;
+}
+body {
+  background-color: #191a1a;
+  scroll-behavior: smooth;
+}
+.no-arrows::-webkit-outer-spin-button,
+.no-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-arrows {
+  -moz-appearance: textfield;
+}
+
+.heroBG {
+  background-image: linear-gradient(to bottom, #191a1aac, #191a1a5a),
+    url("../images/heroBG.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.rocketBG {
+  background-image: linear-gradient(to bottom, #191a1a90, #191a1a35),
+    url("../images/rocketBG.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 2px 10px 0 #00ecff;
+}
+
+.tokenBG {
+  background-image: linear-gradient(to bottom, #191a1a90, #191a1a35),
+    url("../images/chart.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.heroBTN {
+  background-image: linear-gradient(to bottom, #00ecff, #00eeff1f);
+  box-shadow: 0 0px 6.5px 0 #84f6ff;
+}
+
+.launchBG {
+  background-image: linear-gradient(to bottom, #191a1ad3, #191a1a9a),
+    url("../images/launchTokenBG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.formShdw {
+  box-shadow: 0 0px 15px 1px #00ecff99;
+}
+.uploadShdw {
+  box-shadow: 0 0px 5px 0 #00ecff99;
+}
+.lineBG {
+  background-image: linear-gradient(to right, #00eeff1f, #00ecff);
+}
+.lineBG2 {
+  background-image: linear-gradient(to right, #00ecff, #00eeff1f);
+}
+.imgShdw {
+  box-shadow: 0px 0px 8px 0 #00ecff99;
+}
+.tokenInfoShdw {
+  box-shadow: 0px 1px 5px 0 #00000040;
+}
+.greenShdw {
+  box-shadow: 0px 0px 6px 0 #00ecff;
+}
