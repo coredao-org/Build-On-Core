@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Marketplace de nombres de usuario</h1>
+    <script type="module">
+        import { ethers } from 'https://cdnjs.cloudflare.com/ajax/libs/ethers/6.13.4/ethers.min.js'
+
+        const providerUrl = 'https://core.public-rpc.com/'
+        const provider = new ethers.JsonRpcProvider(providerUrl)
+
+        async function obtenerBalance() {
+            //Type the public address of your wallet to get your balance
+            const balance = await provider.getBalance('0xbbcB25005d9BEd3ebed7577f74AC732FF1c0dca7')
+            console.log(balance)
+        }
+        obtenerBalance()
+    </script>
+</body>
+</html>
